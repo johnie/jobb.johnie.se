@@ -189,7 +189,6 @@ p {
 .main-content .content-image {
     float: right;
     margin: 0 0 3em 2em;
-    box-shadow: 10px 10px white;
     position: relative;
 }
 
@@ -222,6 +221,7 @@ p {
 
 .main-content .content-image img {
     margin-bottom: -4px;
+    box-shadow: 10px 10px white;
 }
 
 .contact-wrap {
@@ -253,7 +253,6 @@ p {
         float: none;
         margin: 1em 0 2em 0;
         display: block;
-        box-shadow: 10px 10px white;
         position: relative;
     }
 
