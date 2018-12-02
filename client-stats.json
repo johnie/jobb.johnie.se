@@ -2,13 +2,13 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "ebf275d5e1202ffe2fd0",
-  "time": 9807,
+  "hash": "5a383550fef816014660",
+  "time": 10080,
   "publicPath": "https://jobb.johniehjelm.me/",
   "assetsByChunkName": {
     "src/containers/Woho": [
-      "templates/src/containers/Woho.66d360f5.js",
-      "templates/src/containers/Woho.66d360f5.js.map"
+      "templates/src/containers/Woho.cd0ee8d8.js",
+      "templates/src/containers/Woho.cd0ee8d8.js.map"
     ],
     "src/containers/Home": [
       "templates/src/containers/Home.3eb334f5.js",
@@ -19,20 +19,20 @@
       "templates/src/containers/404.29f14cf9.js.map"
     ],
     "main": [
-      "main.f7b4621d.js",
-      "styles.ebf275d5.css",
-      "main.f7b4621d.js.map",
-      "styles.ebf275d5.css.map"
+      "main.c8b3a07c.js",
+      "styles.5a383550.css",
+      "main.c8b3a07c.js.map",
+      "styles.5a383550.css.map"
     ],
     "bootstrap": [
-      "bootstrap.c7a3c239.js",
-      "bootstrap.c7a3c239.js.map"
+      "bootstrap.f3b543b9.js",
+      "bootstrap.f3b543b9.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/src/containers/Woho.66d360f5.js",
-      "size": 59101,
+      "name": "templates/src/containers/Woho.cd0ee8d8.js",
+      "size": 59327,
       "chunks": [
         0
       ],
@@ -64,8 +64,8 @@
       "emitted": true
     },
     {
-      "name": "main.f7b4621d.js",
-      "size": 273671,
+      "name": "main.c8b3a07c.js",
+      "size": 273803,
       "chunks": [
         3
       ],
@@ -76,7 +76,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.c7a3c239.js",
+      "name": "bootstrap.f3b543b9.js",
       "size": 1569,
       "chunks": [
         4
@@ -87,7 +87,7 @@
       "emitted": true
     },
     {
-      "name": "styles.ebf275d5.css",
+      "name": "styles.5a383550.css",
       "size": 5001,
       "chunks": [
         3
@@ -98,8 +98,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Woho.66d360f5.js.map",
-      "size": 390718,
+      "name": "templates/src/containers/Woho.cd0ee8d8.js.map",
+      "size": 392231,
       "chunks": [
         0
       ],
@@ -131,8 +131,8 @@
       "emitted": true
     },
     {
-      "name": "main.f7b4621d.js.map",
-      "size": 1490947,
+      "name": "main.c8b3a07c.js.map",
+      "size": 1491686,
       "chunks": [
         3
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.ebf275d5.css.map",
+      "name": "styles.5a383550.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,7 +153,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.c7a3c239.js.map",
+      "name": "bootstrap.f3b543b9.js.map",
       "size": 14488,
       "chunks": [
         4
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.c7a3c239.js",
-        "bootstrap.c7a3c239.js.map",
-        "main.f7b4621d.js",
-        "styles.ebf275d5.css",
-        "main.f7b4621d.js.map",
-        "styles.ebf275d5.css.map"
+        "bootstrap.f3b543b9.js",
+        "bootstrap.f3b543b9.js.map",
+        "main.c8b3a07c.js",
+        "styles.5a383550.css",
+        "main.c8b3a07c.js.map",
+        "styles.5a383550.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -189,15 +189,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 146692,
+      "size": 148234,
       "names": [
         "src/containers/Woho"
       ],
       "files": [
-        "templates/src/containers/Woho.66d360f5.js",
-        "templates/src/containers/Woho.66d360f5.js.map"
+        "templates/src/containers/Woho.cd0ee8d8.js",
+        "templates/src/containers/Woho.cd0ee8d8.js.map"
       ],
-      "hash": "66d360f5f13c723fabe8",
+      "hash": "cd0ee8d833260b29f946",
       "parents": [
         3
       ],
@@ -208,7 +208,7 @@
           "name": "./src/containers/Woho.js",
           "index": 149,
           "index2": 164,
-          "size": 6513,
+          "size": 8055,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -247,7 +247,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n\\tbackground-color: white;\\n\\tposition: absolute;\\n\\tbox-sizing: border-box;\\n\\tmargin: 16px;\\n\\twidth: 100%;\\n\\tmax-width: 600px;\\n\\tpadding: 1.5em;\\n\\tborder-radius: 1em;\\n\\ttop: 50%;\\n\\tleft: 50%;\\n\\ttransform: translate(-50%, -50%);\\n\\tbox-shadow: 8px 8px var(--secondary-color);\\n\\n\\t&::before {\\n\\t\\tcontent: \\'\\';\\n\\t\\tdisplay: block;\\n\\t\\tposition: absolute;\\n\\t\\ttop: -8px;\\n\\t\\tleft: -8px;\\n\\t\\tbox-sizing: border-box;\\n\\t\\tborder: 2px solid black;\\n\\t\\twidth: 100%;\\n\\t\\theight: 100%;\\n\\t\\tborder-radius: 1em;\\n\\t}\\n\\n\\t@media (max-width: 32em) {\\n\\t\\twidth: 90%;\\n\\t\\ttop: 50%;\\n\\t\\tleft: 0;\\n\\t\\ttransform: translate(0, -50%);\\n\\t}\\n'], ['\\n\\tbackground-color: white;\\n\\tposition: absolute;\\n\\tbox-sizing: border-box;\\n\\tmargin: 16px;\\n\\twidth: 100%;\\n\\tmax-width: 600px;\\n\\tpadding: 1.5em;\\n\\tborder-radius: 1em;\\n\\ttop: 50%;\\n\\tleft: 50%;\\n\\ttransform: translate(-50%, -50%);\\n\\tbox-shadow: 8px 8px var(--secondary-color);\\n\\n\\t&::before {\\n\\t\\tcontent: \\'\\';\\n\\t\\tdisplay: block;\\n\\t\\tposition: absolute;\\n\\t\\ttop: -8px;\\n\\t\\tleft: -8px;\\n\\t\\tbox-sizing: border-box;\\n\\t\\tborder: 2px solid black;\\n\\t\\twidth: 100%;\\n\\t\\theight: 100%;\\n\\t\\tborder-radius: 1em;\\n\\t}\\n\\n\\t@media (max-width: 32em) {\\n\\t\\twidth: 90%;\\n\\t\\ttop: 50%;\\n\\t\\tleft: 0;\\n\\t\\ttransform: translate(0, -50%);\\n\\t}\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _format = require('date-fns/format');\n\nvar _format2 = _interopRequireDefault(_format);\n\nvar _sv = require('date-fns/locale/sv');\n\nvar _sv2 = _interopRequireDefault(_sv);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n//\n\nvar WohoWrap = _styledComponents2.default.div(_templateObject);\n\nvar Woho = function (_React$Component) {\n\t_inherits(Woho, _React$Component);\n\n\tfunction Woho() {\n\t\tvar _ref;\n\n\t\tvar _temp, _this, _ret;\n\n\t\t_classCallCheck(this, Woho);\n\n\t\tfor (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n\t\t\targs[_key] = arguments[_key];\n\t\t}\n\n\t\treturn _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Woho.__proto__ || Object.getPrototypeOf(Woho)).call.apply(_ref, [this].concat(args))), _this), _this.state = {}, _temp), _possibleConstructorReturn(_this, _ret);\n\t}\n\n\t_createClass(Woho, [{\n\t\tkey: 'componentDidMount',\n\t\tvalue: function componentDidMount() {\n\t\t\tif (typeof document !== 'undefined') {\n\t\t\t\tvar params = function params(_ref2) {\n\t\t\t\t\tvar history = _ref2.history;\n\t\t\t\t\treturn new URLSearchParams(history.location.search);\n\t\t\t\t};\n\n\t\t\t\tvar p = params(this.props);\n\t\t\t\tvar id = p.get('invitee_uuid') || '';\n\t\t\t\tvar name = p.get('invitee_full_name') || '';\n\t\t\t\tvar email = p.get('invitee_email') || '';\n\t\t\t\tvar time = (0, _format2.default)(p.get('event_start_time') || new Date(), 'dddd DD MMMM YYYY kl. HH:mm', {\n\t\t\t\t\tlocale: _sv2.default\n\t\t\t\t});\n\n\t\t\t\t// eslint-disable-next-line\n\t\t\t\tthis.setState({ id: id, name: name, email: email, time: time });\n\t\t\t}\n\t\t}\n\t}, {\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\tvar _state = this.state,\n\t\t\t    id = _state.id,\n\t\t\t    name = _state.name,\n\t\t\t    email = _state.email,\n\t\t\t    time = _state.time;\n\n\n\t\t\tif (!this.props.history.location.search) {\n\t\t\t\treturn _react2.default.createElement(_reactStatic.Redirect, { to: '/' });\n\t\t\t}\n\n\t\t\treturn _react2.default.createElement(\n\t\t\t\tWohoWrap,\n\t\t\t\tnull,\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'h2',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Wohooo!',\n\t\t\t\t\t' ',\n\t\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t\t'span',\n\t\t\t\t\t\t{ role: 'img', 'aria-label': 'Woho icon' },\n\t\t\t\t\t\t'\\uD83C\\uDF89'\n\t\t\t\t\t)\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'p',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Tack f\\xF6r din bokning! Jag h\\xF6r av mig inom kort.'\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'strong',\n\t\t\t\t\tnull,\n\t\t\t\t\t'ID:'\n\t\t\t\t),\n\t\t\t\t' ',\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'span',\n\t\t\t\t\tnull,\n\t\t\t\t\tid\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement('br', null),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'strong',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Namn:'\n\t\t\t\t),\n\t\t\t\t' ',\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'span',\n\t\t\t\t\tnull,\n\t\t\t\t\tname\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement('br', null),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'strong',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Email:'\n\t\t\t\t),\n\t\t\t\t' ',\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'span',\n\t\t\t\t\tnull,\n\t\t\t\t\temail\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement('br', null),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'strong',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Datum:'\n\t\t\t\t),\n\t\t\t\t' ',\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'span',\n\t\t\t\t\tnull,\n\t\t\t\t\ttime\n\t\t\t\t)\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn Woho;\n}(_react2.default.Component);\n\nexports.default = (0, _reactStatic.withRouteData)(Woho);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    background-color: white;\\n    position: absolute;\\n    box-sizing: border-box;\\n    margin: 16px;\\n    width: 100%;\\n    max-width: 600px;\\n    padding: 1.5em;\\n    border-radius: 1em;\\n    top: 50%;\\n    left: 50%;\\n    transform: translate(-50%, -50%);\\n    box-shadow: 8px 8px var(--secondary-color);\\n\\n    &::before {\\n        content: \\'\\';\\n        display: block;\\n        position: absolute;\\n        top: -8px;\\n        left: -8px;\\n        box-sizing: border-box;\\n        border: 2px solid black;\\n        width: 100%;\\n        height: 100%;\\n        border-radius: 1em;\\n    }\\n\\n    @media (max-width: 32em) {\\n        width: 90%;\\n        top: 50%;\\n        left: 0;\\n        transform: translate(0, -50%);\\n    }\\n'], ['\\n    background-color: white;\\n    position: absolute;\\n    box-sizing: border-box;\\n    margin: 16px;\\n    width: 100%;\\n    max-width: 600px;\\n    padding: 1.5em;\\n    border-radius: 1em;\\n    top: 50%;\\n    left: 50%;\\n    transform: translate(-50%, -50%);\\n    box-shadow: 8px 8px var(--secondary-color);\\n\\n    &::before {\\n        content: \\'\\';\\n        display: block;\\n        position: absolute;\\n        top: -8px;\\n        left: -8px;\\n        box-sizing: border-box;\\n        border: 2px solid black;\\n        width: 100%;\\n        height: 100%;\\n        border-radius: 1em;\\n    }\\n\\n    @media (max-width: 32em) {\\n        width: 90%;\\n        top: 50%;\\n        left: 0;\\n        transform: translate(0, -50%);\\n    }\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _format = require('date-fns/format');\n\nvar _format2 = _interopRequireDefault(_format);\n\nvar _sv = require('date-fns/locale/sv');\n\nvar _sv2 = _interopRequireDefault(_sv);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n//\n\nvar WohoWrap = _styledComponents2.default.div(_templateObject);\n\nvar Woho = function (_React$Component) {\n    _inherits(Woho, _React$Component);\n\n    function Woho() {\n        var _ref;\n\n        var _temp, _this, _ret;\n\n        _classCallCheck(this, Woho);\n\n        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n            args[_key] = arguments[_key];\n        }\n\n        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Woho.__proto__ || Object.getPrototypeOf(Woho)).call.apply(_ref, [this].concat(args))), _this), _this.state = {}, _temp), _possibleConstructorReturn(_this, _ret);\n    }\n\n    _createClass(Woho, [{\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            if (typeof document !== 'undefined') {\n                var params = function params(_ref2) {\n                    var history = _ref2.history;\n                    return new URLSearchParams(history.location.search);\n                };\n\n                var p = params(this.props);\n                var id = p.get('invitee_uuid') || '';\n                var name = p.get('invitee_full_name') || '';\n                var email = p.get('invitee_email') || '';\n                var time = (0, _format2.default)(p.get('event_start_time') || new Date(), 'dddd DD MMMM YYYY kl. HH:mm', {\n                    locale: _sv2.default\n                });\n\n                // eslint-disable-next-line\n                this.setState({ id: id, name: name, email: email, time: time });\n            }\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _state = this.state,\n                id = _state.id,\n                name = _state.name,\n                email = _state.email,\n                time = _state.time;\n\n\n            if (!this.props.history.location.search) {\n                return _react2.default.createElement(_reactStatic.Redirect, { to: '/' });\n            }\n\n            return _react2.default.createElement(\n                WohoWrap,\n                null,\n                _react2.default.createElement(_reactStatic.Head, { title: 'Wohooo!' }),\n                _react2.default.createElement(\n                    'h2',\n                    null,\n                    'Wohooo!',\n                    ' ',\n                    _react2.default.createElement(\n                        'span',\n                        { role: 'img', 'aria-label': 'Woho icon' },\n                        '\\uD83C\\uDF89'\n                    )\n                ),\n                _react2.default.createElement(\n                    'p',\n                    null,\n                    'Tack f\\xF6r din bokning! Jag h\\xF6r av mig inom kort.'\n                ),\n                _react2.default.createElement(\n                    'strong',\n                    null,\n                    'ID:'\n                ),\n                ' ',\n                _react2.default.createElement(\n                    'span',\n                    null,\n                    id\n                ),\n                _react2.default.createElement('br', null),\n                _react2.default.createElement(\n                    'strong',\n                    null,\n                    'Namn:'\n                ),\n                ' ',\n                _react2.default.createElement(\n                    'span',\n                    null,\n                    name\n                ),\n                _react2.default.createElement('br', null),\n                _react2.default.createElement(\n                    'strong',\n                    null,\n                    'Email:'\n                ),\n                ' ',\n                _react2.default.createElement(\n                    'span',\n                    null,\n                    email\n                ),\n                _react2.default.createElement('br', null),\n                _react2.default.createElement(\n                    'strong',\n                    null,\n                    'Datum:'\n                ),\n                ' ',\n                _react2.default.createElement(\n                    'span',\n                    null,\n                    time\n                )\n            );\n        }\n    }]);\n\n    return Woho;\n}(_react2.default.Component);\n\nexports.default = (0, _reactStatic.withRouteData)(Woho);"
         },
         {
           "id": 135,
@@ -2547,17 +2547,17 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 519670,
+      "size": 520016,
       "names": [
         "main"
       ],
       "files": [
-        "main.f7b4621d.js",
-        "styles.ebf275d5.css",
-        "main.f7b4621d.js.map",
-        "styles.ebf275d5.css.map"
+        "main.c8b3a07c.js",
+        "styles.5a383550.css",
+        "main.c8b3a07c.js.map",
+        "styles.5a383550.css.map"
       ],
-      "hash": "f7b4621ddb9f13b1b580",
+      "hash": "c8b3a07cb9506d184945",
       "parents": [
         4
       ],
@@ -4078,9 +4078,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/react-static/lib/client/components/RouteData.js",
-          "issuerId": 90,
-          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+          "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/travis/build/johnie/jobb.johnie.se/dist/react-static-routes.js",
+          "issuerId": 128,
+          "issuerName": "./dist/react-static-routes.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -6542,7 +6542,7 @@
           "name": "./src/App.js",
           "index": 8,
           "index2": 168,
-          "size": 813,
+          "size": 1159,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6572,7 +6572,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 1,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./app.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\nvar App = function App() {\n\treturn _react2.default.createElement(\n\t\t_reactStatic.Router,\n\t\tnull,\n\t\t_react2.default.createElement(\n\t\t\t'div',\n\t\t\t{ className: 'content' },\n\t\t\t_react2.default.createElement(_reactStaticRoutes2.default, null)\n\t\t)\n\t);\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./app.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\nvar App = (0, _reactStatic.withSiteData)(function (_ref) {\n    var title = _ref.title,\n        description = _ref.description;\n    return _react2.default.createElement(\n        _reactStatic.Router,\n        null,\n        _react2.default.createElement(\n            'div',\n            { className: 'content' },\n            _react2.default.createElement(_reactStatic.Head, {\n                titleTemplate: title + ' - %s',\n                defaultTitle: title + ' - ' + description\n            }),\n            _react2.default.createElement(_reactStaticRoutes2.default, null)\n        )\n    );\n});\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
         },
         {
           "id": 60,
@@ -9532,10 +9532,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.c7a3c239.js",
-        "bootstrap.c7a3c239.js.map"
+        "bootstrap.f3b543b9.js",
+        "bootstrap.f3b543b9.js.map"
       ],
-      "hash": "c7a3c239f521a5b2dcff",
+      "hash": "f3b543b99bf75a41e6b7",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -11059,9 +11059,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/react-static/lib/client/components/RouteData.js",
-      "issuerId": 90,
-      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+      "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/travis/build/johnie/jobb.johnie.se/dist/react-static-routes.js",
+      "issuerId": 128,
+      "issuerName": "./dist/react-static-routes.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13390,7 +13390,7 @@
       "name": "./src/containers/Woho.js",
       "index": 149,
       "index2": 164,
-      "size": 6513,
+      "size": 8055,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13429,7 +13429,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n\\tbackground-color: white;\\n\\tposition: absolute;\\n\\tbox-sizing: border-box;\\n\\tmargin: 16px;\\n\\twidth: 100%;\\n\\tmax-width: 600px;\\n\\tpadding: 1.5em;\\n\\tborder-radius: 1em;\\n\\ttop: 50%;\\n\\tleft: 50%;\\n\\ttransform: translate(-50%, -50%);\\n\\tbox-shadow: 8px 8px var(--secondary-color);\\n\\n\\t&::before {\\n\\t\\tcontent: \\'\\';\\n\\t\\tdisplay: block;\\n\\t\\tposition: absolute;\\n\\t\\ttop: -8px;\\n\\t\\tleft: -8px;\\n\\t\\tbox-sizing: border-box;\\n\\t\\tborder: 2px solid black;\\n\\t\\twidth: 100%;\\n\\t\\theight: 100%;\\n\\t\\tborder-radius: 1em;\\n\\t}\\n\\n\\t@media (max-width: 32em) {\\n\\t\\twidth: 90%;\\n\\t\\ttop: 50%;\\n\\t\\tleft: 0;\\n\\t\\ttransform: translate(0, -50%);\\n\\t}\\n'], ['\\n\\tbackground-color: white;\\n\\tposition: absolute;\\n\\tbox-sizing: border-box;\\n\\tmargin: 16px;\\n\\twidth: 100%;\\n\\tmax-width: 600px;\\n\\tpadding: 1.5em;\\n\\tborder-radius: 1em;\\n\\ttop: 50%;\\n\\tleft: 50%;\\n\\ttransform: translate(-50%, -50%);\\n\\tbox-shadow: 8px 8px var(--secondary-color);\\n\\n\\t&::before {\\n\\t\\tcontent: \\'\\';\\n\\t\\tdisplay: block;\\n\\t\\tposition: absolute;\\n\\t\\ttop: -8px;\\n\\t\\tleft: -8px;\\n\\t\\tbox-sizing: border-box;\\n\\t\\tborder: 2px solid black;\\n\\t\\twidth: 100%;\\n\\t\\theight: 100%;\\n\\t\\tborder-radius: 1em;\\n\\t}\\n\\n\\t@media (max-width: 32em) {\\n\\t\\twidth: 90%;\\n\\t\\ttop: 50%;\\n\\t\\tleft: 0;\\n\\t\\ttransform: translate(0, -50%);\\n\\t}\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _format = require('date-fns/format');\n\nvar _format2 = _interopRequireDefault(_format);\n\nvar _sv = require('date-fns/locale/sv');\n\nvar _sv2 = _interopRequireDefault(_sv);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n//\n\nvar WohoWrap = _styledComponents2.default.div(_templateObject);\n\nvar Woho = function (_React$Component) {\n\t_inherits(Woho, _React$Component);\n\n\tfunction Woho() {\n\t\tvar _ref;\n\n\t\tvar _temp, _this, _ret;\n\n\t\t_classCallCheck(this, Woho);\n\n\t\tfor (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n\t\t\targs[_key] = arguments[_key];\n\t\t}\n\n\t\treturn _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Woho.__proto__ || Object.getPrototypeOf(Woho)).call.apply(_ref, [this].concat(args))), _this), _this.state = {}, _temp), _possibleConstructorReturn(_this, _ret);\n\t}\n\n\t_createClass(Woho, [{\n\t\tkey: 'componentDidMount',\n\t\tvalue: function componentDidMount() {\n\t\t\tif (typeof document !== 'undefined') {\n\t\t\t\tvar params = function params(_ref2) {\n\t\t\t\t\tvar history = _ref2.history;\n\t\t\t\t\treturn new URLSearchParams(history.location.search);\n\t\t\t\t};\n\n\t\t\t\tvar p = params(this.props);\n\t\t\t\tvar id = p.get('invitee_uuid') || '';\n\t\t\t\tvar name = p.get('invitee_full_name') || '';\n\t\t\t\tvar email = p.get('invitee_email') || '';\n\t\t\t\tvar time = (0, _format2.default)(p.get('event_start_time') || new Date(), 'dddd DD MMMM YYYY kl. HH:mm', {\n\t\t\t\t\tlocale: _sv2.default\n\t\t\t\t});\n\n\t\t\t\t// eslint-disable-next-line\n\t\t\t\tthis.setState({ id: id, name: name, email: email, time: time });\n\t\t\t}\n\t\t}\n\t}, {\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\tvar _state = this.state,\n\t\t\t    id = _state.id,\n\t\t\t    name = _state.name,\n\t\t\t    email = _state.email,\n\t\t\t    time = _state.time;\n\n\n\t\t\tif (!this.props.history.location.search) {\n\t\t\t\treturn _react2.default.createElement(_reactStatic.Redirect, { to: '/' });\n\t\t\t}\n\n\t\t\treturn _react2.default.createElement(\n\t\t\t\tWohoWrap,\n\t\t\t\tnull,\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'h2',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Wohooo!',\n\t\t\t\t\t' ',\n\t\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t\t'span',\n\t\t\t\t\t\t{ role: 'img', 'aria-label': 'Woho icon' },\n\t\t\t\t\t\t'\\uD83C\\uDF89'\n\t\t\t\t\t)\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'p',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Tack f\\xF6r din bokning! Jag h\\xF6r av mig inom kort.'\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'strong',\n\t\t\t\t\tnull,\n\t\t\t\t\t'ID:'\n\t\t\t\t),\n\t\t\t\t' ',\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'span',\n\t\t\t\t\tnull,\n\t\t\t\t\tid\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement('br', null),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'strong',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Namn:'\n\t\t\t\t),\n\t\t\t\t' ',\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'span',\n\t\t\t\t\tnull,\n\t\t\t\t\tname\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement('br', null),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'strong',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Email:'\n\t\t\t\t),\n\t\t\t\t' ',\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'span',\n\t\t\t\t\tnull,\n\t\t\t\t\temail\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement('br', null),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'strong',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Datum:'\n\t\t\t\t),\n\t\t\t\t' ',\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'span',\n\t\t\t\t\tnull,\n\t\t\t\t\ttime\n\t\t\t\t)\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn Woho;\n}(_react2.default.Component);\n\nexports.default = (0, _reactStatic.withRouteData)(Woho);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    background-color: white;\\n    position: absolute;\\n    box-sizing: border-box;\\n    margin: 16px;\\n    width: 100%;\\n    max-width: 600px;\\n    padding: 1.5em;\\n    border-radius: 1em;\\n    top: 50%;\\n    left: 50%;\\n    transform: translate(-50%, -50%);\\n    box-shadow: 8px 8px var(--secondary-color);\\n\\n    &::before {\\n        content: \\'\\';\\n        display: block;\\n        position: absolute;\\n        top: -8px;\\n        left: -8px;\\n        box-sizing: border-box;\\n        border: 2px solid black;\\n        width: 100%;\\n        height: 100%;\\n        border-radius: 1em;\\n    }\\n\\n    @media (max-width: 32em) {\\n        width: 90%;\\n        top: 50%;\\n        left: 0;\\n        transform: translate(0, -50%);\\n    }\\n'], ['\\n    background-color: white;\\n    position: absolute;\\n    box-sizing: border-box;\\n    margin: 16px;\\n    width: 100%;\\n    max-width: 600px;\\n    padding: 1.5em;\\n    border-radius: 1em;\\n    top: 50%;\\n    left: 50%;\\n    transform: translate(-50%, -50%);\\n    box-shadow: 8px 8px var(--secondary-color);\\n\\n    &::before {\\n        content: \\'\\';\\n        display: block;\\n        position: absolute;\\n        top: -8px;\\n        left: -8px;\\n        box-sizing: border-box;\\n        border: 2px solid black;\\n        width: 100%;\\n        height: 100%;\\n        border-radius: 1em;\\n    }\\n\\n    @media (max-width: 32em) {\\n        width: 90%;\\n        top: 50%;\\n        left: 0;\\n        transform: translate(0, -50%);\\n    }\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _format = require('date-fns/format');\n\nvar _format2 = _interopRequireDefault(_format);\n\nvar _sv = require('date-fns/locale/sv');\n\nvar _sv2 = _interopRequireDefault(_sv);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n//\n\nvar WohoWrap = _styledComponents2.default.div(_templateObject);\n\nvar Woho = function (_React$Component) {\n    _inherits(Woho, _React$Component);\n\n    function Woho() {\n        var _ref;\n\n        var _temp, _this, _ret;\n\n        _classCallCheck(this, Woho);\n\n        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n            args[_key] = arguments[_key];\n        }\n\n        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Woho.__proto__ || Object.getPrototypeOf(Woho)).call.apply(_ref, [this].concat(args))), _this), _this.state = {}, _temp), _possibleConstructorReturn(_this, _ret);\n    }\n\n    _createClass(Woho, [{\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            if (typeof document !== 'undefined') {\n                var params = function params(_ref2) {\n                    var history = _ref2.history;\n                    return new URLSearchParams(history.location.search);\n                };\n\n                var p = params(this.props);\n                var id = p.get('invitee_uuid') || '';\n                var name = p.get('invitee_full_name') || '';\n                var email = p.get('invitee_email') || '';\n                var time = (0, _format2.default)(p.get('event_start_time') || new Date(), 'dddd DD MMMM YYYY kl. HH:mm', {\n                    locale: _sv2.default\n                });\n\n                // eslint-disable-next-line\n                this.setState({ id: id, name: name, email: email, time: time });\n            }\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _state = this.state,\n                id = _state.id,\n                name = _state.name,\n                email = _state.email,\n                time = _state.time;\n\n\n            if (!this.props.history.location.search) {\n                return _react2.default.createElement(_reactStatic.Redirect, { to: '/' });\n            }\n\n            return _react2.default.createElement(\n                WohoWrap,\n                null,\n                _react2.default.createElement(_reactStatic.Head, { title: 'Wohooo!' }),\n                _react2.default.createElement(\n                    'h2',\n                    null,\n                    'Wohooo!',\n                    ' ',\n                    _react2.default.createElement(\n                        'span',\n                        { role: 'img', 'aria-label': 'Woho icon' },\n                        '\\uD83C\\uDF89'\n                    )\n                ),\n                _react2.default.createElement(\n                    'p',\n                    null,\n                    'Tack f\\xF6r din bokning! Jag h\\xF6r av mig inom kort.'\n                ),\n                _react2.default.createElement(\n                    'strong',\n                    null,\n                    'ID:'\n                ),\n                ' ',\n                _react2.default.createElement(\n                    'span',\n                    null,\n                    id\n                ),\n                _react2.default.createElement('br', null),\n                _react2.default.createElement(\n                    'strong',\n                    null,\n                    'Namn:'\n                ),\n                ' ',\n                _react2.default.createElement(\n                    'span',\n                    null,\n                    name\n                ),\n                _react2.default.createElement('br', null),\n                _react2.default.createElement(\n                    'strong',\n                    null,\n                    'Email:'\n                ),\n                ' ',\n                _react2.default.createElement(\n                    'span',\n                    null,\n                    email\n                ),\n                _react2.default.createElement('br', null),\n                _react2.default.createElement(\n                    'strong',\n                    null,\n                    'Datum:'\n                ),\n                ' ',\n                _react2.default.createElement(\n                    'span',\n                    null,\n                    time\n                )\n            );\n        }\n    }]);\n\n    return Woho;\n}(_react2.default.Component);\n\nexports.default = (0, _reactStatic.withRouteData)(Woho);"
     },
     {
       "id": 53,
@@ -13664,7 +13664,7 @@
       "name": "./src/App.js",
       "index": 8,
       "index2": 168,
-      "size": 813,
+      "size": 1159,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13694,7 +13694,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 1,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./app.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\nvar App = function App() {\n\treturn _react2.default.createElement(\n\t\t_reactStatic.Router,\n\t\tnull,\n\t\t_react2.default.createElement(\n\t\t\t'div',\n\t\t\t{ className: 'content' },\n\t\t\t_react2.default.createElement(_reactStaticRoutes2.default, null)\n\t\t)\n\t);\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nrequire('./app.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\nvar App = (0, _reactStatic.withSiteData)(function (_ref) {\n    var title = _ref.title,\n        description = _ref.description;\n    return _react2.default.createElement(\n        _reactStatic.Router,\n        null,\n        _react2.default.createElement(\n            'div',\n            { className: 'content' },\n            _react2.default.createElement(_reactStatic.Head, {\n                titleTemplate: title + ' - %s',\n                defaultTitle: title + ' - ' + description\n            }),\n            _react2.default.createElement(_reactStaticRoutes2.default, null)\n        )\n    );\n});\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
     },
     {
       "id": 60,

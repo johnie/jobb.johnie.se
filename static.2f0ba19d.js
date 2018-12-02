@@ -382,12 +382,12 @@ module.exports = require("styled-components");
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+    value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(['\n\tbackground-color: white;\n\tposition: absolute;\n\tbox-sizing: border-box;\n\tmargin: 16px;\n\twidth: 100%;\n\tmax-width: 600px;\n\tpadding: 1.5em;\n\tborder-radius: 1em;\n\ttop: 50%;\n\tleft: 50%;\n\ttransform: translate(-50%, -50%);\n\tbox-shadow: 8px 8px var(--secondary-color);\n\n\t&::before {\n\t\tcontent: \'\';\n\t\tdisplay: block;\n\t\tposition: absolute;\n\t\ttop: -8px;\n\t\tleft: -8px;\n\t\tbox-sizing: border-box;\n\t\tborder: 2px solid black;\n\t\twidth: 100%;\n\t\theight: 100%;\n\t\tborder-radius: 1em;\n\t}\n\n\t@media (max-width: 32em) {\n\t\twidth: 90%;\n\t\ttop: 50%;\n\t\tleft: 0;\n\t\ttransform: translate(0, -50%);\n\t}\n'], ['\n\tbackground-color: white;\n\tposition: absolute;\n\tbox-sizing: border-box;\n\tmargin: 16px;\n\twidth: 100%;\n\tmax-width: 600px;\n\tpadding: 1.5em;\n\tborder-radius: 1em;\n\ttop: 50%;\n\tleft: 50%;\n\ttransform: translate(-50%, -50%);\n\tbox-shadow: 8px 8px var(--secondary-color);\n\n\t&::before {\n\t\tcontent: \'\';\n\t\tdisplay: block;\n\t\tposition: absolute;\n\t\ttop: -8px;\n\t\tleft: -8px;\n\t\tbox-sizing: border-box;\n\t\tborder: 2px solid black;\n\t\twidth: 100%;\n\t\theight: 100%;\n\t\tborder-radius: 1em;\n\t}\n\n\t@media (max-width: 32em) {\n\t\twidth: 90%;\n\t\ttop: 50%;\n\t\tleft: 0;\n\t\ttransform: translate(0, -50%);\n\t}\n']);
+var _templateObject = _taggedTemplateLiteral(['\n    background-color: white;\n    position: absolute;\n    box-sizing: border-box;\n    margin: 16px;\n    width: 100%;\n    max-width: 600px;\n    padding: 1.5em;\n    border-radius: 1em;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    box-shadow: 8px 8px var(--secondary-color);\n\n    &::before {\n        content: \'\';\n        display: block;\n        position: absolute;\n        top: -8px;\n        left: -8px;\n        box-sizing: border-box;\n        border: 2px solid black;\n        width: 100%;\n        height: 100%;\n        border-radius: 1em;\n    }\n\n    @media (max-width: 32em) {\n        width: 90%;\n        top: 50%;\n        left: 0;\n        transform: translate(0, -50%);\n    }\n'], ['\n    background-color: white;\n    position: absolute;\n    box-sizing: border-box;\n    margin: 16px;\n    width: 100%;\n    max-width: 600px;\n    padding: 1.5em;\n    border-radius: 1em;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    box-shadow: 8px 8px var(--secondary-color);\n\n    &::before {\n        content: \'\';\n        display: block;\n        position: absolute;\n        top: -8px;\n        left: -8px;\n        box-sizing: border-box;\n        border: 2px solid black;\n        width: 100%;\n        height: 100%;\n        border-radius: 1em;\n    }\n\n    @media (max-width: 32em) {\n        width: 90%;\n        top: 50%;\n        left: 0;\n        transform: translate(0, -50%);\n    }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -422,128 +422,129 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 var WohoWrap = _styledComponents2.default.div(_templateObject);
 
 var Woho = function (_React$Component) {
-	_inherits(Woho, _React$Component);
+    _inherits(Woho, _React$Component);
 
-	function Woho() {
-		var _ref;
+    function Woho() {
+        var _ref;
 
-		var _temp, _this, _ret;
+        var _temp, _this, _ret;
 
-		_classCallCheck(this, Woho);
+        _classCallCheck(this, Woho);
 
-		for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-			args[_key] = arguments[_key];
-		}
+        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+        }
 
-		return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Woho.__proto__ || Object.getPrototypeOf(Woho)).call.apply(_ref, [this].concat(args))), _this), _this.state = {}, _temp), _possibleConstructorReturn(_this, _ret);
-	}
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Woho.__proto__ || Object.getPrototypeOf(Woho)).call.apply(_ref, [this].concat(args))), _this), _this.state = {}, _temp), _possibleConstructorReturn(_this, _ret);
+    }
 
-	_createClass(Woho, [{
-		key: 'componentDidMount',
-		value: function componentDidMount() {
-			if (typeof document !== 'undefined') {
-				var params = function params(_ref2) {
-					var history = _ref2.history;
-					return new URLSearchParams(history.location.search);
-				};
+    _createClass(Woho, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            if (typeof document !== 'undefined') {
+                var params = function params(_ref2) {
+                    var history = _ref2.history;
+                    return new URLSearchParams(history.location.search);
+                };
 
-				var p = params(this.props);
-				var id = p.get('invitee_uuid') || '';
-				var name = p.get('invitee_full_name') || '';
-				var email = p.get('invitee_email') || '';
-				var time = (0, _format2.default)(p.get('event_start_time') || new Date(), 'dddd DD MMMM YYYY kl. HH:mm', {
-					locale: _sv2.default
-				});
+                var p = params(this.props);
+                var id = p.get('invitee_uuid') || '';
+                var name = p.get('invitee_full_name') || '';
+                var email = p.get('invitee_email') || '';
+                var time = (0, _format2.default)(p.get('event_start_time') || new Date(), 'dddd DD MMMM YYYY kl. HH:mm', {
+                    locale: _sv2.default
+                });
 
-				// eslint-disable-next-line
-				this.setState({ id: id, name: name, email: email, time: time });
-			}
-		}
-	}, {
-		key: 'render',
-		value: function render() {
-			var _state = this.state,
-			    id = _state.id,
-			    name = _state.name,
-			    email = _state.email,
-			    time = _state.time;
+                // eslint-disable-next-line
+                this.setState({ id: id, name: name, email: email, time: time });
+            }
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            var _state = this.state,
+                id = _state.id,
+                name = _state.name,
+                email = _state.email,
+                time = _state.time;
 
 
-			if (!this.props.history.location.search) {
-				return _react2.default.createElement(_reactStatic.Redirect, { to: '/' });
-			}
+            if (!this.props.history.location.search) {
+                return _react2.default.createElement(_reactStatic.Redirect, { to: '/' });
+            }
 
-			return _react2.default.createElement(
-				WohoWrap,
-				null,
-				_react2.default.createElement(
-					'h2',
-					null,
-					'Wohooo!',
-					' ',
-					_react2.default.createElement(
-						'span',
-						{ role: 'img', 'aria-label': 'Woho icon' },
-						'\uD83C\uDF89'
-					)
-				),
-				_react2.default.createElement(
-					'p',
-					null,
-					'Tack f\xF6r din bokning! Jag h\xF6r av mig inom kort.'
-				),
-				_react2.default.createElement(
-					'strong',
-					null,
-					'ID:'
-				),
-				' ',
-				_react2.default.createElement(
-					'span',
-					null,
-					id
-				),
-				_react2.default.createElement('br', null),
-				_react2.default.createElement(
-					'strong',
-					null,
-					'Namn:'
-				),
-				' ',
-				_react2.default.createElement(
-					'span',
-					null,
-					name
-				),
-				_react2.default.createElement('br', null),
-				_react2.default.createElement(
-					'strong',
-					null,
-					'Email:'
-				),
-				' ',
-				_react2.default.createElement(
-					'span',
-					null,
-					email
-				),
-				_react2.default.createElement('br', null),
-				_react2.default.createElement(
-					'strong',
-					null,
-					'Datum:'
-				),
-				' ',
-				_react2.default.createElement(
-					'span',
-					null,
-					time
-				)
-			);
-		}
-	}]);
+            return _react2.default.createElement(
+                WohoWrap,
+                null,
+                _react2.default.createElement(_reactStatic.Head, { title: 'Wohooo!' }),
+                _react2.default.createElement(
+                    'h2',
+                    null,
+                    'Wohooo!',
+                    ' ',
+                    _react2.default.createElement(
+                        'span',
+                        { role: 'img', 'aria-label': 'Woho icon' },
+                        '\uD83C\uDF89'
+                    )
+                ),
+                _react2.default.createElement(
+                    'p',
+                    null,
+                    'Tack f\xF6r din bokning! Jag h\xF6r av mig inom kort.'
+                ),
+                _react2.default.createElement(
+                    'strong',
+                    null,
+                    'ID:'
+                ),
+                ' ',
+                _react2.default.createElement(
+                    'span',
+                    null,
+                    id
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'strong',
+                    null,
+                    'Namn:'
+                ),
+                ' ',
+                _react2.default.createElement(
+                    'span',
+                    null,
+                    name
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'strong',
+                    null,
+                    'Email:'
+                ),
+                ' ',
+                _react2.default.createElement(
+                    'span',
+                    null,
+                    email
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'strong',
+                    null,
+                    'Datum:'
+                ),
+                ' ',
+                _react2.default.createElement(
+                    'span',
+                    null,
+                    time
+                )
+            );
+        }
+    }]);
 
-	return Woho;
+    return Woho;
 }(_react2.default.Component);
 
 exports.default = (0, _reactStatic.withRouteData)(Woho);
@@ -636,7 +637,7 @@ module.exports = require("react-dom");
 /* WEBPACK VAR INJECTION */(function(module) {
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+    value: true
 });
 
 var _react = __webpack_require__(0);
@@ -656,17 +657,23 @@ __webpack_require__(27);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 //
-var App = function App() {
-	return _react2.default.createElement(
-		_reactStatic.Router,
-		null,
-		_react2.default.createElement(
-			'div',
-			{ className: 'content' },
-			_react2.default.createElement(_reactStaticRoutes2.default, null)
-		)
-	);
-};
+var App = (0, _reactStatic.withSiteData)(function (_ref) {
+    var title = _ref.title,
+        description = _ref.description;
+    return _react2.default.createElement(
+        _reactStatic.Router,
+        null,
+        _react2.default.createElement(
+            'div',
+            { className: 'content' },
+            _react2.default.createElement(_reactStatic.Head, {
+                titleTemplate: title + ' - %s',
+                defaultTitle: title + ' - ' + description
+            }),
+            _react2.default.createElement(_reactStaticRoutes2.default, null)
+        )
+    );
+});
 
 exports.default = (0, _reactHotLoader.hot)(module)(App);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)(module)))
@@ -1684,4 +1691,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.83125fb5.js.map
+//# sourceMappingURL=static.2f0ba19d.js.map
