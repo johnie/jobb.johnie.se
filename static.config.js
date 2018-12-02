@@ -53,6 +53,10 @@ export default {
                             content="Johnie Hjelm söker personlig assistent"
                         />
                         <meta
+                            property="og:image"
+                            content="https://res.cloudinary.com/crip/image/upload/c_scale,w_400/v1/Company/People/Management/Johnie_Hjelm.jpg"
+                        />
+                        <meta
                             property="og:url"
                             content="https://jobb.johniehjelm.me/"
                         />
