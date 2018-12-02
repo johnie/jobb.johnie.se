@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "https://jobb.johniehjelm.me/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -255,15 +255,15 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(1);
 
-var _difference_in_years = __webpack_require__(22);
+var _difference_in_years = __webpack_require__(21);
 
 var _difference_in_years2 = _interopRequireDefault(_difference_in_years);
 
-var _htmr = __webpack_require__(23);
+var _htmr = __webpack_require__(22);
 
 var _htmr2 = _interopRequireDefault(_htmr);
 
-var _button = __webpack_require__(24);
+var _button = __webpack_require__(23);
 
 var _button2 = _interopRequireDefault(_button);
 
@@ -370,12 +370,6 @@ exports.default = (0, _reactStatic.withRouteData)(function (data) {
 
 /***/ }),
 /* 6 */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-components");
-
-/***/ }),
-/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -384,10 +378,6 @@ module.exports = require("styled-components");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _templateObject = _taggedTemplateLiteral(['\n    background-color: white;\n    position: absolute;\n    box-sizing: border-box;\n    margin: 16px;\n    width: 100%;\n    max-width: 600px;\n    padding: 1.5em;\n    border-radius: 1em;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    box-shadow: 8px 8px var(--secondary-color);\n\n    &::before {\n        content: \'\';\n        display: block;\n        position: absolute;\n        top: -8px;\n        left: -8px;\n        box-sizing: border-box;\n        border: 2px solid black;\n        width: 100%;\n        height: 100%;\n        border-radius: 1em;\n    }\n\n    @media (max-width: 32em) {\n        width: 90%;\n        top: 50%;\n        left: 0;\n        transform: translate(0, -50%);\n    }\n'], ['\n    background-color: white;\n    position: absolute;\n    box-sizing: border-box;\n    margin: 16px;\n    width: 100%;\n    max-width: 600px;\n    padding: 1.5em;\n    border-radius: 1em;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    box-shadow: 8px 8px var(--secondary-color);\n\n    &::before {\n        content: \'\';\n        display: block;\n        position: absolute;\n        top: -8px;\n        left: -8px;\n        box-sizing: border-box;\n        border: 2px solid black;\n        width: 100%;\n        height: 100%;\n        border-radius: 1em;\n    }\n\n    @media (max-width: 32em) {\n        width: 90%;\n        top: 50%;\n        left: 0;\n        transform: translate(0, -50%);\n    }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -403,154 +393,106 @@ var _sv = __webpack_require__(26);
 
 var _sv2 = _interopRequireDefault(_sv);
 
-var _styledComponents = __webpack_require__(6);
-
-var _styledComponents2 = _interopRequireDefault(_styledComponents);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 //
 
-var WohoWrap = _styledComponents2.default.div(_templateObject);
+var woho = function woho(data) {
+    if (typeof document !== 'undefined') {
+        var params = function params(_ref) {
+            var history = _ref.history;
+            return new URLSearchParams(history.location.search);
+        };
 
-var Woho = function (_React$Component) {
-    _inherits(Woho, _React$Component);
+        var p = params(data);
+        var id = p.get('invitee_uuid') || '';
+        var name = p.get('invitee_full_name') || '';
+        var email = p.get('invitee_email') || '';
+        var time = (0, _format2.default)(p.get('event_start_time') || new Date(), 'dddd DD MMMM YYYY kl. HH:mm', {
+            locale: _sv2.default
+        });
 
-    function Woho() {
-        var _ref;
-
-        var _temp, _this, _ret;
-
-        _classCallCheck(this, Woho);
-
-        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-            args[_key] = arguments[_key];
-        }
-
-        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Woho.__proto__ || Object.getPrototypeOf(Woho)).call.apply(_ref, [this].concat(args))), _this), _this.state = {}, _temp), _possibleConstructorReturn(_this, _ret);
+        return _react2.default.createElement(
+            'div',
+            { className: 'woho-wrap' },
+            _react2.default.createElement(_reactStatic.Head, { title: 'Wohooo!' }),
+            _react2.default.createElement(
+                'h2',
+                null,
+                'Wohooo!',
+                ' ',
+                _react2.default.createElement(
+                    'span',
+                    { role: 'img', 'aria-label': 'Woho icon' },
+                    '\uD83C\uDF89'
+                )
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'Tack f\xF6r din bokning! Jag h\xF6r av mig inom kort.'
+            ),
+            _react2.default.createElement(
+                'strong',
+                null,
+                'ID:'
+            ),
+            ' ',
+            _react2.default.createElement(
+                'span',
+                null,
+                id
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+                'strong',
+                null,
+                'Namn:'
+            ),
+            ' ',
+            _react2.default.createElement(
+                'span',
+                null,
+                name
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+                'strong',
+                null,
+                'Email:'
+            ),
+            ' ',
+            _react2.default.createElement(
+                'span',
+                null,
+                email
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+                'strong',
+                null,
+                'Datum:'
+            ),
+            ' ',
+            _react2.default.createElement(
+                'span',
+                null,
+                time
+            )
+        );
     }
 
-    _createClass(Woho, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
-            if (typeof document !== 'undefined') {
-                var params = function params(_ref2) {
-                    var history = _ref2.history;
-                    return new URLSearchParams(history.location.search);
-                };
+    return _react2.default.createElement(
+        'div',
+        { className: 'woho-wrap' },
+        'Heelo'
+    );
+};
 
-                var p = params(this.props);
-                var id = p.get('invitee_uuid') || '';
-                var name = p.get('invitee_full_name') || '';
-                var email = p.get('invitee_email') || '';
-                var time = (0, _format2.default)(p.get('event_start_time') || new Date(), 'dddd DD MMMM YYYY kl. HH:mm', {
-                    locale: _sv2.default
-                });
-
-                // eslint-disable-next-line
-                this.setState({ id: id, name: name, email: email, time: time });
-            }
-        }
-    }, {
-        key: 'render',
-        value: function render() {
-            var _state = this.state,
-                id = _state.id,
-                name = _state.name,
-                email = _state.email,
-                time = _state.time;
-
-
-            if (!this.props.history.location.search) {
-                return _react2.default.createElement(_reactStatic.Redirect, { to: '/' });
-            }
-
-            return _react2.default.createElement(
-                WohoWrap,
-                null,
-                _react2.default.createElement(_reactStatic.Head, { title: 'Wohooo!' }),
-                _react2.default.createElement(
-                    'h2',
-                    null,
-                    'Wohooo!',
-                    ' ',
-                    _react2.default.createElement(
-                        'span',
-                        { role: 'img', 'aria-label': 'Woho icon' },
-                        '\uD83C\uDF89'
-                    )
-                ),
-                _react2.default.createElement(
-                    'p',
-                    null,
-                    'Tack f\xF6r din bokning! Jag h\xF6r av mig inom kort.'
-                ),
-                _react2.default.createElement(
-                    'strong',
-                    null,
-                    'ID:'
-                ),
-                ' ',
-                _react2.default.createElement(
-                    'span',
-                    null,
-                    id
-                ),
-                _react2.default.createElement('br', null),
-                _react2.default.createElement(
-                    'strong',
-                    null,
-                    'Namn:'
-                ),
-                ' ',
-                _react2.default.createElement(
-                    'span',
-                    null,
-                    name
-                ),
-                _react2.default.createElement('br', null),
-                _react2.default.createElement(
-                    'strong',
-                    null,
-                    'Email:'
-                ),
-                ' ',
-                _react2.default.createElement(
-                    'span',
-                    null,
-                    email
-                ),
-                _react2.default.createElement('br', null),
-                _react2.default.createElement(
-                    'strong',
-                    null,
-                    'Datum:'
-                ),
-                ' ',
-                _react2.default.createElement(
-                    'span',
-                    null,
-                    time
-                )
-            );
-        }
-    }]);
-
-    return Woho;
-}(_react2.default.Component);
-
-exports.default = (0, _reactStatic.withRouteData)(Woho);
+exports.default = (0, _reactStatic.withRouteData)(woho);
 
 /***/ }),
-/* 8 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -575,7 +517,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 9 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -589,11 +531,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(10);
+var _reactDom = __webpack_require__(9);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(11);
+var _App = __webpack_require__(10);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -624,13 +566,13 @@ if (typeof document !== 'undefined') {
 }
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 11 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -646,9 +588,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(1);
 
-var _reactHotLoader = __webpack_require__(12);
+var _reactHotLoader = __webpack_require__(11);
 
-var _reactStaticRoutes = __webpack_require__(13);
+var _reactStaticRoutes = __webpack_require__(12);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
@@ -679,13 +621,13 @@ exports.default = (0, _reactHotLoader.hot)(module)(App);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 12 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 13 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -695,15 +637,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path2 = __webpack_require__(14);
+var _path2 = __webpack_require__(13);
 
 var _path3 = _interopRequireDefault(_path2);
 
-var _importCss2 = __webpack_require__(15);
+var _importCss2 = __webpack_require__(14);
 
 var _importCss3 = _interopRequireDefault(_importCss2);
 
-var _universalImport2 = __webpack_require__(16);
+var _universalImport2 = __webpack_require__(15);
 
 var _universalImport3 = _interopRequireDefault(_universalImport2);
 
@@ -715,9 +657,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(17);
+var _reactRouterDom = __webpack_require__(16);
 
-var _reactUniversalComponent = __webpack_require__(18);
+var _reactUniversalComponent = __webpack_require__(17);
 
 var _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);
 
@@ -771,7 +713,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/containers/Woho',
   file: '/home/travis/build/johnie/jobb.johnie.se/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 7)), (0, _importCss3.default)('src/containers/Woho', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 6)), (0, _importCss3.default)('src/containers/Woho', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -781,7 +723,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/Woho');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(7);
+    return /*require.resolve*/(6);
   },
   chunkName: function chunkName() {
     return 'src/containers/Woho';
@@ -791,7 +733,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/containers/404',
   file: '/home/travis/build/johnie/jobb.johnie.se/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 8)), (0, _importCss3.default)('src/containers/404', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 7)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -801,7 +743,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/404');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(8);
+    return /*require.resolve*/(7);
   },
   chunkName: function chunkName() {
     return 'src/containers/404';
@@ -888,31 +830,31 @@ exports.default = Routes;
 /* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
-/* 14 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 15 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/importCss");
 
 /***/ }),
-/* 16 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -927,7 +869,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _requireUniversalModule = __webpack_require__(19);
+var _requireUniversalModule = __webpack_require__(18);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -942,7 +884,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(20);
+var _reportChunks = __webpack_require__(19);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -959,7 +901,7 @@ var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(21);
+var _hoistNonReactStatics = __webpack_require__(20);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -1259,7 +1201,7 @@ exports.default = universal;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1441,7 +1383,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1504,25 +1446,25 @@ ReportChunks.childContextTypes = {
 exports.default = ReportChunks;
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = require("date-fns/difference_in_years");
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports) {
 
 module.exports = require("htmr");
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1538,7 +1480,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _styledComponents = __webpack_require__(6);
+var _styledComponents = __webpack_require__(24);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
@@ -1581,6 +1523,12 @@ Button.defaultProps = {
 exports.default = Button;
 
 /***/ }),
+/* 24 */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-components");
+
+/***/ }),
 /* 25 */
 /***/ (function(module, exports) {
 
@@ -1601,7 +1549,7 @@ exports = module.exports = __webpack_require__(28)(false);
 
 
 // module
-exports.push([module.i, ":root{--main-color:#fedf22;--secondary-color:#fa6b5d;--third-color:#4854f1}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Book.80e9c364.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Book.0127ef90.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Book.bd0af0b6.ttf) format(\"truetype\");font-weight:400;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BookItalic.b62b5b94.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BookItalic.216dec70.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BookItalic.58743b16.ttf) format(\"truetype\");font-weight:400;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Medium.eedf0753.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Medium.7b2b40bc.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Medium.f089a9ed.ttf) format(\"truetype\");font-weight:500;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-MediumItalic.9465a375.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-MediumItalic.042e5cd0.woff) format(\"woff\"),url(/assets/fonts/CircularStd-MediumItalic.8dba7a2e.ttf) format(\"truetype\");font-weight:500;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Bold.c3d5e041.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Bold.3846ec55.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Bold.4103a6b3.ttf) format(\"truetype\");font-weight:700;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BoldItalic.715911a7.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BoldItalic.409f5a04.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BoldItalic.e099e247.ttf) format(\"truetype\");font-weight:700;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Black.8dad6d94.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Black.4cbaf5d7.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Black.797785a9.ttf) format(\"truetype\");font-weight:900;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BlackItalic.e78f3095.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BlackItalic.ad15ff54.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BlackItalic.70499120.ttf) format(\"truetype\");font-weight:900;font-style:italic}body{margin:0;padding:0;font-family:Circular Std,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;font-size:16px;-webkit-font-feature-settings:\"liga\",\"kern\";font-feature-settings:\"liga\",\"kern\";text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;background:var(--main-color) url(\"/assets/images/confetti.svg\");background-size:300%}a,body{color:#000}a{text-decoration:none;display:inline-block;font-weight:600;position:relative}a:before{content:\"\";display:block;position:absolute;height:6px;width:100%;bottom:8px;left:0;background-color:var(--secondary-color);z-index:-1}.content,img{max-width:100%}.content{margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:16px;padding-left:16px;padding-bottom:3em;width:988px}h1{font-size:calc(2.5rem + 2vh);letter-spacing:.1rem}h1,h2{font-weight:900}h2{margin:.33em 0}h2,h3{font-size:calc(1rem + 2vh)}h3{font-weight:500;margin-top:.5em;margin-bottom:.5em}h4{font-size:1.2em;margin:1em auto 0}h4,h5{font-weight:700}h5{font-size:1em;margin:1em auto .5em}p{line-height:1.68;font-size:calc(1rem + 1vh)}.page-title{padding:3em 0}.page-title h1{margin:0}.insta-image{width:16.6666666%}.insta-image img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.main-content .content-image{float:right;margin:0 0 3em 2em;position:relative}.main-content .content-image:before{width:100%;height:100%;border:4px solid #000;top:-11px;left:-11px;z-index:2}.main-content .content-image:after,.main-content .content-image:before{content:\"\";display:block;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute}.main-content .content-image:after{width:80px;height:200px;background:url(\"/assets/images/sm-dot-pattern-red.svg\");background-size:cover;bottom:0;left:11px;z-index:1}.main-content .content-image img{margin-bottom:-4px;-webkit-box-shadow:10px 10px #fff;box-shadow:10px 10px #fff}.contact-wrap{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-align:center;align-items:center;max-width:700px;margin:0 auto;padding:3em 0}.contact-wrap .sep{font-weight:700;font-style:italic;font-size:1.2rem}@media (max-width:32em){body{background-size:700%}.page-title{padding:1.5em 0}.main-content .content-image{float:none;margin:1em 0 2em;display:block;position:relative}h1{font-size:calc(1rem + 2vh)}h2,h3{font-size:calc(.5rem + 2vh)}p{font-size:1.2rem}.contact-wrap{-ms-flex-direction:column;flex-direction:column}.contact-wrap .sep{display:block;padding:1em 0}a:before{height:5px}}", ""]);
+exports.push([module.i, ":root{--main-color:#fedf22;--secondary-color:#fa6b5d;--third-color:#4854f1}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Book.80e9c364.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Book.0127ef90.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Book.bd0af0b6.ttf) format(\"truetype\");font-weight:400;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BookItalic.b62b5b94.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BookItalic.216dec70.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BookItalic.58743b16.ttf) format(\"truetype\");font-weight:400;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Medium.eedf0753.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Medium.7b2b40bc.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Medium.f089a9ed.ttf) format(\"truetype\");font-weight:500;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-MediumItalic.9465a375.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-MediumItalic.042e5cd0.woff) format(\"woff\"),url(/assets/fonts/CircularStd-MediumItalic.8dba7a2e.ttf) format(\"truetype\");font-weight:500;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Bold.c3d5e041.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Bold.3846ec55.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Bold.4103a6b3.ttf) format(\"truetype\");font-weight:700;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BoldItalic.715911a7.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BoldItalic.409f5a04.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BoldItalic.e099e247.ttf) format(\"truetype\");font-weight:700;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Black.8dad6d94.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Black.4cbaf5d7.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Black.797785a9.ttf) format(\"truetype\");font-weight:900;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BlackItalic.e78f3095.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BlackItalic.ad15ff54.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BlackItalic.70499120.ttf) format(\"truetype\");font-weight:900;font-style:italic}body{margin:0;padding:0;font-family:Circular Std,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;font-size:16px;-webkit-font-feature-settings:\"liga\",\"kern\";font-feature-settings:\"liga\",\"kern\";text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;background:var(--main-color) url(\"/assets/images/confetti.svg\");background-size:300%}a,body{color:#000}a{text-decoration:none;display:inline-block;font-weight:600;position:relative}a:before{content:\"\";display:block;position:absolute;height:6px;width:100%;bottom:8px;left:0;background-color:var(--secondary-color);z-index:-1}.content,img{max-width:100%}.content{margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:16px;padding-left:16px;padding-bottom:3em;width:988px}h1{font-size:calc(2.5rem + 2vh);letter-spacing:.1rem}h1,h2{font-weight:900}h2{margin:.33em 0}h2,h3{font-size:calc(1rem + 2vh)}h3{font-weight:500;margin-top:.5em;margin-bottom:.5em}h4{font-size:1.2em;margin:1em auto 0}h4,h5{font-weight:700}h5{font-size:1em;margin:1em auto .5em}p{line-height:1.68;font-size:calc(1rem + 1vh)}.page-title{padding:3em 0}.page-title h1{margin:0}.insta-image{width:16.6666666%}.insta-image img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.main-content .content-image{float:right;margin:0 0 3em 2em;position:relative}.main-content .content-image:before{width:100%;height:100%;border:4px solid #000;top:-11px;left:-11px;z-index:2}.main-content .content-image:after,.main-content .content-image:before{content:\"\";display:block;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute}.main-content .content-image:after{width:80px;height:200px;background:url(\"/assets/images/sm-dot-pattern-red.svg\");background-size:cover;bottom:0;left:11px;z-index:1}.main-content .content-image img{margin-bottom:-4px;-webkit-box-shadow:10px 10px #fff;box-shadow:10px 10px #fff}.contact-wrap{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-align:center;align-items:center;max-width:700px;margin:0 auto;padding:3em 0}.contact-wrap .sep{font-weight:700;font-style:italic;font-size:1.2rem}.woho-wrap{background-color:#fff;margin:16px;max-width:600px;padding:1.5em;border-radius:1em;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-box-shadow:8px 8px var(--secondary-color);box-shadow:8px 8px var(--secondary-color)}.woho-wrap,.woho-wrap:before{position:absolute;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}.woho-wrap:before{content:\"\";display:block;top:-8px;left:-8px;border:2px solid #000;height:100%;border-radius:1em}@media (max-width:32em){body{background-size:700%}.page-title{padding:1.5em 0}.main-content .content-image{float:none;margin:1em 0 2em;display:block;position:relative}h1{font-size:calc(1rem + 2vh)}h2,h3{font-size:calc(.5rem + 2vh)}p{font-size:1.2rem}.contact-wrap{-ms-flex-direction:column;flex-direction:column}.contact-wrap .sep{display:block;padding:1em 0}a:before{height:5px}.woho-wrap{width:90%;top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}}", ""]);
 
 // exports
 
@@ -1691,4 +1639,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.e89ce1f0.js.map
+//# sourceMappingURL=static.c88f304f.js.map
