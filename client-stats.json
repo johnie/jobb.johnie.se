@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "0efd190bc2917b6d06a1",
-  "time": 10520,
-  "publicPath": "https://jobb.johnie.se/",
+  "hash": "c019022b85823992884e",
+  "time": 10131,
+  "publicPath": "https://jobb.johniehjelm.me/",
   "assetsByChunkName": {
     "src/containers/Woho": [
       "templates/src/containers/Woho.66d360f5.js",
@@ -19,14 +19,14 @@
       "templates/src/containers/404.29f14cf9.js.map"
     ],
     "main": [
-      "main.1a0a2c6d.js",
-      "styles.0efd190b.css",
-      "main.1a0a2c6d.js.map",
-      "styles.0efd190b.css.map"
+      "main.f7b4621d.js",
+      "styles.c019022b.css",
+      "main.f7b4621d.js.map",
+      "styles.c019022b.css.map"
     ],
     "bootstrap": [
-      "bootstrap.bf8c0c13.js",
-      "bootstrap.bf8c0c13.js.map"
+      "bootstrap.51cb30cb.js",
+      "bootstrap.51cb30cb.js.map"
     ]
   },
   "assets": [
@@ -64,8 +64,8 @@
       "emitted": true
     },
     {
-      "name": "main.1a0a2c6d.js",
-      "size": 273646,
+      "name": "main.f7b4621d.js",
+      "size": 273671,
       "chunks": [
         3
       ],
@@ -76,8 +76,8 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.bf8c0c13.js",
-      "size": 1564,
+      "name": "bootstrap.51cb30cb.js",
+      "size": 1569,
       "chunks": [
         4
       ],
@@ -87,7 +87,7 @@
       "emitted": true
     },
     {
-      "name": "styles.0efd190b.css",
+      "name": "styles.c019022b.css",
       "size": 5001,
       "chunks": [
         3
@@ -131,8 +131,8 @@
       "emitted": true
     },
     {
-      "name": "main.1a0a2c6d.js.map",
-      "size": 1490922,
+      "name": "main.f7b4621d.js.map",
+      "size": 1490947,
       "chunks": [
         3
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.0efd190b.css.map",
+      "name": "styles.c019022b.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,8 +153,8 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.bf8c0c13.js.map",
-      "size": 14478,
+      "name": "bootstrap.51cb30cb.js.map",
+      "size": 14488,
       "chunks": [
         4
       ],
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.bf8c0c13.js",
-        "bootstrap.bf8c0c13.js.map",
-        "main.1a0a2c6d.js",
-        "styles.0efd190b.css",
-        "main.1a0a2c6d.js.map",
-        "styles.0efd190b.css.map"
+        "bootstrap.51cb30cb.js",
+        "bootstrap.51cb30cb.js.map",
+        "main.f7b4621d.js",
+        "styles.c019022b.css",
+        "main.f7b4621d.js.map",
+        "styles.c019022b.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -2552,12 +2552,12 @@
         "main"
       ],
       "files": [
-        "main.1a0a2c6d.js",
-        "styles.0efd190b.css",
-        "main.1a0a2c6d.js.map",
-        "styles.0efd190b.css.map"
+        "main.f7b4621d.js",
+        "styles.c019022b.css",
+        "main.f7b4621d.js.map",
+        "styles.c019022b.css.map"
       ],
-      "hash": "1a0a2c6d198cda7a46d7",
+      "hash": "f7b4621ddb9f13b1b580",
       "parents": [
         4
       ],
@@ -9532,10 +9532,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.bf8c0c13.js",
-        "bootstrap.bf8c0c13.js.map"
+        "bootstrap.51cb30cb.js",
+        "bootstrap.51cb30cb.js.map"
       ],
-      "hash": "bf8c0c132a54bef05604",
+      "hash": "51cb30cb798539abf6fd",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -18149,7 +18149,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "https://jobb.johnie.se/",
+      "publicPath": "https://jobb.johniehjelm.me/",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -18175,7 +18175,7 @@
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "3aba9bb0e8328d80695e",
+          "hash": "7ef91e9beb41ea979862",
           "parents": [],
           "modules": [
             {
