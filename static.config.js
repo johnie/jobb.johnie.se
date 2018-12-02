@@ -6,7 +6,7 @@ import chokidar from 'chokidar';
 chokidar.watch('content').on('all', () => reloadRoutes());
 
 export default {
-    siteRoot: 'https://jobb.johnie.se',
+    siteRoot: 'https://jobb.johniehjelm.me',
     getSiteData: () => ({
         title: 'Johnie Hjelm',
         description:
