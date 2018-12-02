@@ -3,7 +3,7 @@
   "warnings": [],
   "version": "3.12.0",
   "hash": "a46a9633bde2a793145b",
-  "time": 9510,
+  "time": 8992,
   "publicPath": "https://jobb.johniehjelm.me/",
   "assetsByChunkName": {
     "src/containers/Woho": [
@@ -3623,9 +3623,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/react-static/lib/client/components/RouteData.js",
-          "issuerId": 90,
-          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+          "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/travis/build/johnie/jobb.johnie.se/dist/react-static-routes.js",
+          "issuerId": 128,
+          "issuerName": "./dist/react-static-routes.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -10604,9 +10604,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/react-static/lib/client/components/RouteData.js",
-      "issuerId": 90,
-      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+      "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/travis/build/johnie/jobb.johnie.se/dist/react-static-routes.js",
+      "issuerId": 128,
+      "issuerName": "./dist/react-static-routes.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
