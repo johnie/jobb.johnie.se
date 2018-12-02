@@ -54,7 +54,7 @@ export default {
                         />
                         <meta
                             property="og:url"
-                            content="https://jobb.johnie.se"
+                            content="https://jobb.johniehjelm.me/"
                         />
                         <meta
                             property="og:site_name"
