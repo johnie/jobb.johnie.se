@@ -10,4 +10,4 @@ Du som söker skall, oavsett kön eller sexuell läggning, vara mellan 20-35år,
 
 Jag kan erbjuda dig är en arbetsplats med mycket högt till tak, sköna discussioner och väldigt ostressig miljö. Men också där din passioner kan växa - t.ex en av mina assistenter är [sveriges grymmast hiphopmusiker](https://open.spotify.com/artist/3Q32bNJ9bjTHSh66syuXhm?si=jeTAQRNcRcCDEB2UiZTRkA).
 
-Individuell lönesättning enl KFO hos [God Assistans](https://godassistans.se).
+Individuell lönesättning enl KFS hos [God Assistans](https://godassistans.se).
