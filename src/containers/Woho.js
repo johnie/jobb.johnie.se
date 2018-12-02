@@ -1,79 +1,28 @@
 import React from 'react';
-import { Head, Redirect, withRouteData } from 'react-static';
+import { Head, withRouteData } from 'react-static';
 import format from 'date-fns/format';
 import seLocale from 'date-fns/locale/sv';
-import styled from 'styled-components';
 //
 
-const WohoWrap = styled.div`
-    background-color: white;
-    position: absolute;
-    box-sizing: border-box;
-    margin: 16px;
-    width: 100%;
-    max-width: 600px;
-    padding: 1.5em;
-    border-radius: 1em;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 8px 8px var(--secondary-color);
+const woho = data => {
+    if (typeof document !== 'undefined') {
+        const params = ({ history }) =>
+            new URLSearchParams(history.location.search);
 
-    &::before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: -8px;
-        left: -8px;
-        box-sizing: border-box;
-        border: 2px solid black;
-        width: 100%;
-        height: 100%;
-        border-radius: 1em;
-    }
-
-    @media (max-width: 32em) {
-        width: 90%;
-        top: 50%;
-        left: 0;
-        transform: translate(0, -50%);
-    }
-`;
-
-class Woho extends React.Component {
-    state = {};
-
-    componentDidMount() {
-        if (typeof document !== 'undefined') {
-            const params = ({ history }) =>
-                new URLSearchParams(history.location.search);
-
-            const p = params(this.props);
-            const id = p.get('invitee_uuid') || '';
-            const name = p.get('invitee_full_name') || '';
-            const email = p.get('invitee_email') || '';
-            const time = format(
-                p.get('event_start_time') || new Date(),
-                'dddd DD MMMM YYYY kl. HH:mm',
-                {
-                    locale: seLocale
-                }
-            );
-
-            // eslint-disable-next-line
-            this.setState({ id, name, email, time });
-        }
-    }
-
-    render() {
-        const { id, name, email, time } = this.state;
-
-        if (!this.props.history.location.search) {
-            return <Redirect to="/" />;
-        }
+        const p = params(data);
+        const id = p.get('invitee_uuid') || '';
+        const name = p.get('invitee_full_name') || '';
+        const email = p.get('invitee_email') || '';
+        const time = format(
+            p.get('event_start_time') || new Date(),
+            'dddd DD MMMM YYYY kl. HH:mm',
+            {
+                locale: seLocale
+            }
+        );
 
         return (
-            <WohoWrap>
+            <div className="woho-wrap">
                 <Head title="Wohooo!" />
                 <h2>
                     Wohooo!{' '}
@@ -89,9 +38,11 @@ class Woho extends React.Component {
                 <strong>Email:</strong> <span>{email}</span>
                 <br />
                 <strong>Datum:</strong> <span>{time}</span>
-            </WohoWrap>
+            </div>
         );
     }
-}
 
-export default withRouteData(Woho);
+    return <div className="woho-wrap">Heelo</div>;
+};
+
+export default withRouteData(woho);
