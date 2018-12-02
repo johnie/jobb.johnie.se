@@ -1,0 +1,285 @@
+:root {
+	--main-color: #fedf22;
+	--secondary-color: #fa6b5d;
+	--third-color: #4854f1;
+}
+
+@font-face {
+	font-family: Circular Std;
+	src: url(/assets/fonts/CircularStd-Book.80e9c364.woff2) format('woff2'),
+		url(/assets/fonts/CircularStd-Book.0127ef90.woff) format('woff'),
+		url(/assets/fonts/CircularStd-Book.bd0af0b6.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Circular Std;
+	src: url(/assets/fonts/CircularStd-BookItalic.b62b5b94.woff2)
+			format('woff2'),
+		url(/assets/fonts/CircularStd-BookItalic.216dec70.woff) format('woff'),
+		url(/assets/fonts/CircularStd-BookItalic.58743b16.ttf)
+			format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Circular Std;
+	src: url(/assets/fonts/CircularStd-Medium.eedf0753.woff2) format('woff2'),
+		url(/assets/fonts/CircularStd-Medium.7b2b40bc.woff) format('woff'),
+		url(/assets/fonts/CircularStd-Medium.f089a9ed.ttf) format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Circular Std;
+	src: url(/assets/fonts/CircularStd-MediumItalic.9465a375.woff2)
+			format('woff2'),
+		url(/assets/fonts/CircularStd-MediumItalic.042e5cd0.woff) format('woff'),
+		url(/assets/fonts/CircularStd-MediumItalic.8dba7a2e.ttf)
+			format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Circular Std;
+	src: url(/assets/fonts/CircularStd-Bold.c3d5e041.woff2) format('woff2'),
+		url(/assets/fonts/CircularStd-Bold.3846ec55.woff) format('woff'),
+		url(/assets/fonts/CircularStd-Bold.4103a6b3.ttf) format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Circular Std;
+	src: url(/assets/fonts/CircularStd-BoldItalic.715911a7.woff2)
+			format('woff2'),
+		url(/assets/fonts/CircularStd-BoldItalic.409f5a04.woff) format('woff'),
+		url(/assets/fonts/CircularStd-BoldItalic.e099e247.ttf)
+			format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Circular Std;
+	src: url(/assets/fonts/CircularStd-Black.8dad6d94.woff2) format('woff2'),
+		url(/assets/fonts/CircularStd-Black.4cbaf5d7.woff) format('woff'),
+		url(/assets/fonts/CircularStd-Black.797785a9.ttf) format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Circular Std;
+	src: url(/assets/fonts/CircularStd-BlackItalic.e78f3095.woff2)
+			format('woff2'),
+		url(/assets/fonts/CircularStd-BlackItalic.ad15ff54.woff) format('woff'),
+		url(/assets/fonts/CircularStd-BlackItalic.70499120.ttf)
+			format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Circular Std', -apple-system, BlinkMacSystemFont, 'Helvetica',
+		'Arial', sans-serif;
+	font-size: 16px;
+	font-feature-settings: 'liga', 'kern';
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	background: var(--main-color) url('/assets/images/confetti.svg');
+	background-size: 300%;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 600;
+	color: black;
+	position: relative;
+}
+
+a::before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 6px;
+	width: 100%;
+	bottom: 8px;
+	left: 0;
+	background-color: var(--secondary-color);
+	z-index: -1;
+}
+
+img {
+	max-width: 100%;
+}
+
+.content {
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-bottom: 3em;
+	width: calc(1020px - 32px);
+	max-width: 100%;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: calc(2.5rem + 2vh);
+	letter-spacing: 0.1rem;
+}
+
+h2 {
+	font-weight: 900;
+	font-size: calc(1rem + 2vh);
+	margin: 0.33em 0;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: calc(1rem + 2vh);
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 1em auto 0;
+}
+
+h5 {
+	font-weight: bold;
+	font-size: 1em;
+	margin: 1em auto 0.5em;
+}
+
+p {
+	line-height: 1.68;
+	font-size: calc(1rem + 1vh);
+}
+
+.page-title {
+	padding: 3em 0;
+}
+
+.page-title h1 {
+	margin: 0;
+}
+
+.insta-image {
+	width: 16.6666666%;
+}
+
+.insta-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.main-content .content-image {
+	float: right;
+	margin: 0 0 3em 2em;
+	box-shadow: 10px 10px white;
+	position: relative;
+}
+
+.main-content .content-image::before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 4px solid black;
+	top: -11px;
+	left: -11px;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 2;
+}
+
+.main-content .content-image::after {
+	content: '';
+	display: block;
+	width: 80px;
+	height: 200px;
+	background: url('/assets/images/sm-dot-pattern-red.svg');
+	background-size: cover;
+	bottom: 0;
+	left: 11px;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 1;
+}
+
+.main-content .content-image img {
+	margin-bottom: -4px;
+}
+
+.contact-wrap {
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 3em 0;
+}
+
+.contact-wrap .sep {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.2rem;
+}
+
+@media (max-width: 32em) {
+	body {
+		background-size: 700%;
+	}
+
+	.page-title {
+		padding: 1.5em 0;
+	}
+
+	.main-content .content-image {
+		float: none;
+		margin: 1em 0 2em 0;
+		display: block;
+		box-shadow: 10px 10px white;
+		position: relative;
+	}
+
+	h1 {
+		font-size: calc(1rem + 2vh);
+	}
+
+	h2,
+	h3 {
+		font-size: calc(0.5rem + 2vh);
+	}
+
+	p {
+		font-size: 1.2rem;
+	}
+
+	.contact-wrap {
+		flex-direction: column;
+	}
+
+	.contact-wrap .sep {
+		display: block;
+		padding: 1em 0;
+	}
+
+	a::before {
+		height: 5px;
+	}
+}
