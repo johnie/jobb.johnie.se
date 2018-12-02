@@ -53,7 +53,10 @@ export default withRouteData(data => {
                 <main className="main-content">
                     {convert(body)}
                     <div className="contact-wrap">
-                        <Button text="Maila mig" href="mailto:jobb@johnie.se" />
+                        <Button
+                            text="Maila mig"
+                            href="mailto:johnie@hjelm.im"
+                        />
                         <span className="sep">eller</span>
                         <Button
                             bg="var(--third-color)"
