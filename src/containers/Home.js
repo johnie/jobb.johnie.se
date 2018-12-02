@@ -18,7 +18,7 @@ const greet = () => {
 const getAge = differenceInYears(new Date(), new Date(1992, 4, 8));
 
 export default withRouteData(data => {
-	const title = pupa(data.title.contents, { greeting: greet(), getAge });
+	const title = pupa(data.title.contents, { greeting: greet() });
 	const body = pupa(data.body.contents, { getAge });
 	return (
 		<React.Fragment>

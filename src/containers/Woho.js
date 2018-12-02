@@ -5,8 +5,6 @@ import seLocale from 'date-fns/locale/sv';
 import styled from 'styled-components';
 //
 
-const params = ({ history }) => new URLSearchParams(history.location.search);
-
 const WohoWrap = styled.div`
 	background-color: white;
 	position: absolute;
@@ -42,41 +40,57 @@ const WohoWrap = styled.div`
 	}
 `;
 
-const woho = data => {
-	const p = params(data);
-	const id = p.get('invitee_uuid') || '';
-	const name = p.get('invitee_full_name') || '';
-	const email = p.get('invitee_email') || '';
-	const time = format(
-		p.get('event_start_time') || new Date(),
-		'dddd DD MMMM YYYY kl. HH:mm',
-		{
-			locale: seLocale
-		}
-	);
+class Woho extends React.Component {
+	state = {};
 
-	if (!data.history.location.search) {
-		return <Redirect to="/" />;
+	componentDidMount() {
+		if (typeof document !== 'undefined') {
+			const params = ({ history }) =>
+				new URLSearchParams(history.location.search);
+
+			const p = params(this.props);
+			const id = p.get('invitee_uuid') || '';
+			const name = p.get('invitee_full_name') || '';
+			const email = p.get('invitee_email') || '';
+			const time = format(
+				p.get('event_start_time') || new Date(),
+				'dddd DD MMMM YYYY kl. HH:mm',
+				{
+					locale: seLocale
+				}
+			);
+
+			// eslint-disable-next-line
+			this.setState({ id, name, email, time });
+		}
 	}
 
-	return (
-		<WohoWrap>
-			<h2>
-				Wohooo!{' '}
-				<span role="img" aria-label="Woho icon">
-					🎉
-				</span>
-			</h2>
-			<p>Tack för din bokning! Jag hör av mig inom kort.</p>
-			<strong>ID:</strong> <span>{id}</span>
-			<br />
-			<strong>Namn:</strong> <span>{name}</span>
-			<br />
-			<strong>Email:</strong> <span>{email}</span>
-			<br />
-			<strong>Datum:</strong> <span>{time}</span>
-		</WohoWrap>
-	);
-};
+	render() {
+		const { id, name, email, time } = this.state;
 
-export default withRouteData(woho);
+		if (!this.props.history.location.search) {
+			return <Redirect to="/" />;
+		}
+
+		return (
+			<WohoWrap>
+				<h2>
+					Wohooo!{' '}
+					<span role="img" aria-label="Woho icon">
+						🎉
+					</span>
+				</h2>
+				<p>Tack för din bokning! Jag hör av mig inom kort.</p>
+				<strong>ID:</strong> <span>{id}</span>
+				<br />
+				<strong>Namn:</strong> <span>{name}</span>
+				<br />
+				<strong>Email:</strong> <span>{email}</span>
+				<br />
+				<strong>Datum:</strong> <span>{time}</span>
+			</WohoWrap>
+		);
+	}
+}
+
+export default withRouteData(Woho);
