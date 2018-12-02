@@ -1,0 +1,2 @@
+webpackJsonp([2],{53:function(e,t,u){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=u(0),r=function(e){return e&&e.__esModule?e:{default:e}}(n),c=u(26);t.default=function(){return r.default.createElement(c.Redirect,{to:"/"})}}});
+//# sourceMappingURL=404.29f14cf9.js.map
