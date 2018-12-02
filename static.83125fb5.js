@@ -345,7 +345,10 @@ exports.default = (0, _reactStatic.withRouteData)(function (data) {
                 _react2.default.createElement(
                     'div',
                     { className: 'contact-wrap' },
-                    _react2.default.createElement(_button2.default, { text: 'Maila mig', href: 'mailto:jobb@johnie.se' }),
+                    _react2.default.createElement(_button2.default, {
+                        text: 'Maila mig',
+                        href: 'mailto:johnie@hjelm.im'
+                    }),
                     _react2.default.createElement(
                         'span',
                         { className: 'sep' },
@@ -1681,4 +1684,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ab7f4272.js.map
+//# sourceMappingURL=static.83125fb5.js.map

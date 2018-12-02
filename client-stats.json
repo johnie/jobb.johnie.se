@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "c019022b85823992884e",
-  "time": 9422,
+  "hash": "ebf275d5e1202ffe2fd0",
+  "time": 9807,
   "publicPath": "https://jobb.johniehjelm.me/",
   "assetsByChunkName": {
     "src/containers/Woho": [
@@ -11,8 +11,8 @@
       "templates/src/containers/Woho.66d360f5.js.map"
     ],
     "src/containers/Home": [
-      "templates/src/containers/Home.7810f52d.js",
-      "templates/src/containers/Home.7810f52d.js.map"
+      "templates/src/containers/Home.3eb334f5.js",
+      "templates/src/containers/Home.3eb334f5.js.map"
     ],
     "src/containers/404": [
       "templates/src/containers/404.29f14cf9.js",
@@ -20,13 +20,13 @@
     ],
     "main": [
       "main.f7b4621d.js",
-      "styles.c019022b.css",
+      "styles.ebf275d5.css",
       "main.f7b4621d.js.map",
-      "styles.c019022b.css.map"
+      "styles.ebf275d5.css.map"
     ],
     "bootstrap": [
-      "bootstrap.51cb30cb.js",
-      "bootstrap.51cb30cb.js.map"
+      "bootstrap.c7a3c239.js",
+      "bootstrap.c7a3c239.js.map"
     ]
   },
   "assets": [
@@ -42,8 +42,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Home.7810f52d.js",
-      "size": 54490,
+      "name": "templates/src/containers/Home.3eb334f5.js",
+      "size": 54491,
       "chunks": [
         1
       ],
@@ -76,7 +76,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.51cb30cb.js",
+      "name": "bootstrap.c7a3c239.js",
       "size": 1569,
       "chunks": [
         4
@@ -87,7 +87,7 @@
       "emitted": true
     },
     {
-      "name": "styles.c019022b.css",
+      "name": "styles.ebf275d5.css",
       "size": 5001,
       "chunks": [
         3
@@ -109,8 +109,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Home.7810f52d.js.map",
-      "size": 332036,
+      "name": "templates/src/containers/Home.3eb334f5.js.map",
+      "size": 332191,
       "chunks": [
         1
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.c019022b.css.map",
+      "name": "styles.ebf275d5.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,7 +153,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.51cb30cb.js.map",
+      "name": "bootstrap.c7a3c239.js.map",
       "size": 14488,
       "chunks": [
         4
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.51cb30cb.js",
-        "bootstrap.51cb30cb.js.map",
+        "bootstrap.c7a3c239.js",
+        "bootstrap.c7a3c239.js.map",
         "main.f7b4621d.js",
-        "styles.c019022b.css",
+        "styles.ebf275d5.css",
         "main.f7b4621d.js.map",
-        "styles.c019022b.css.map"
+        "styles.ebf275d5.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -1593,15 +1593,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 123693,
+      "size": 123762,
       "names": [
         "src/containers/Home"
       ],
       "files": [
-        "templates/src/containers/Home.7810f52d.js",
-        "templates/src/containers/Home.7810f52d.js.map"
+        "templates/src/containers/Home.3eb334f5.js",
+        "templates/src/containers/Home.3eb334f5.js.map"
       ],
-      "hash": "7810f52d52ec40bf7437",
+      "hash": "3eb334f58fd45c8a61bb",
       "parents": [
         3
       ],
@@ -1612,7 +1612,7 @@
           "name": "./src/containers/Home.js",
           "index": 131,
           "index2": 145,
-          "size": 4149,
+          "size": 4218,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1651,7 +1651,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _difference_in_years = require('date-fns/difference_in_years');\n\nvar _difference_in_years2 = _interopRequireDefault(_difference_in_years);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _button = require('../components/button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nvar pupa = function pupa(template, data) {\n    if (typeof template !== 'string') {\n        throw new TypeError('Expected a string in the first argument, got ' + (typeof template === 'undefined' ? 'undefined' : _typeof(template)));\n    }\n\n    if ((typeof data === 'undefined' ? 'undefined' : _typeof(data)) !== 'object') {\n        throw new TypeError('Expected an Object/Array in the second argument, got ' + (typeof data === 'undefined' ? 'undefined' : _typeof(data)));\n    }\n\n    var regex = /{(.*?)}/g;\n\n    return template.replace(regex, function (_, key) {\n        var ret = data;\n\n        // eslint-disable-next-line\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n            for (var _iterator = key.split('.')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n                var prop = _step.value;\n\n                ret = ret ? ret[prop] : '';\n            }\n        } catch (err) {\n            _didIteratorError = true;\n            _iteratorError = err;\n        } finally {\n            try {\n                if (!_iteratorNormalCompletion && _iterator.return) {\n                    _iterator.return();\n                }\n            } finally {\n                if (_didIteratorError) {\n                    throw _iteratorError;\n                }\n            }\n        }\n\n        return ret || '';\n    });\n};\n\nvar greet = function greet() {\n    var hours = new Date().getHours();\n    if (hours >= 12) {\n        return hours > 17 ? 'God kväll' : 'God eftermiddag';\n    }\n\n    return 'Hallå där';\n};\n\nvar getAge = (0, _difference_in_years2.default)(new Date(), new Date(1992, 4, 8));\n\nexports.default = (0, _reactStatic.withRouteData)(function (data) {\n    if (typeof document !== 'undefined') {\n        var title = pupa(data.title.contents, { greeting: greet() });\n        var body = pupa(data.body.contents, { getAge: getAge });\n        return _react2.default.createElement(\n            _react2.default.Fragment,\n            null,\n            _react2.default.createElement(\n                'header',\n                { className: 'page-title' },\n                (0, _htmr2.default)(title)\n            ),\n            _react2.default.createElement(\n                'main',\n                { className: 'main-content' },\n                (0, _htmr2.default)(body),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'contact-wrap' },\n                    _react2.default.createElement(_button2.default, { text: 'Maila mig', href: 'mailto:jobb@johnie.se' }),\n                    _react2.default.createElement(\n                        'span',\n                        { className: 'sep' },\n                        'eller'\n                    ),\n                    _react2.default.createElement(_button2.default, {\n                        bg: 'var(--third-color)',\n                        color: 'white',\n                        text: 'Boka in mig i kalendern',\n                        href: 'https://calendly.com/johniehjelm/jobb/30min'\n                    })\n                )\n            )\n        );\n    }\n\n    return null;\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _difference_in_years = require('date-fns/difference_in_years');\n\nvar _difference_in_years2 = _interopRequireDefault(_difference_in_years);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _button = require('../components/button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nvar pupa = function pupa(template, data) {\n    if (typeof template !== 'string') {\n        throw new TypeError('Expected a string in the first argument, got ' + (typeof template === 'undefined' ? 'undefined' : _typeof(template)));\n    }\n\n    if ((typeof data === 'undefined' ? 'undefined' : _typeof(data)) !== 'object') {\n        throw new TypeError('Expected an Object/Array in the second argument, got ' + (typeof data === 'undefined' ? 'undefined' : _typeof(data)));\n    }\n\n    var regex = /{(.*?)}/g;\n\n    return template.replace(regex, function (_, key) {\n        var ret = data;\n\n        // eslint-disable-next-line\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n            for (var _iterator = key.split('.')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n                var prop = _step.value;\n\n                ret = ret ? ret[prop] : '';\n            }\n        } catch (err) {\n            _didIteratorError = true;\n            _iteratorError = err;\n        } finally {\n            try {\n                if (!_iteratorNormalCompletion && _iterator.return) {\n                    _iterator.return();\n                }\n            } finally {\n                if (_didIteratorError) {\n                    throw _iteratorError;\n                }\n            }\n        }\n\n        return ret || '';\n    });\n};\n\nvar greet = function greet() {\n    var hours = new Date().getHours();\n    if (hours >= 12) {\n        return hours > 17 ? 'God kväll' : 'God eftermiddag';\n    }\n\n    return 'Hallå där';\n};\n\nvar getAge = (0, _difference_in_years2.default)(new Date(), new Date(1992, 4, 8));\n\nexports.default = (0, _reactStatic.withRouteData)(function (data) {\n    if (typeof document !== 'undefined') {\n        var title = pupa(data.title.contents, { greeting: greet() });\n        var body = pupa(data.body.contents, { getAge: getAge });\n        return _react2.default.createElement(\n            _react2.default.Fragment,\n            null,\n            _react2.default.createElement(\n                'header',\n                { className: 'page-title' },\n                (0, _htmr2.default)(title)\n            ),\n            _react2.default.createElement(\n                'main',\n                { className: 'main-content' },\n                (0, _htmr2.default)(body),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'contact-wrap' },\n                    _react2.default.createElement(_button2.default, {\n                        text: 'Maila mig',\n                        href: 'mailto:johnie@hjelm.im'\n                    }),\n                    _react2.default.createElement(\n                        'span',\n                        { className: 'sep' },\n                        'eller'\n                    ),\n                    _react2.default.createElement(_button2.default, {\n                        bg: 'var(--third-color)',\n                        color: 'white',\n                        text: 'Boka in mig i kalendern',\n                        href: 'https://calendly.com/johniehjelm/jobb/30min'\n                    })\n                )\n            )\n        );\n    }\n\n    return null;\n});"
         },
         {
           "id": 135,
@@ -2553,9 +2553,9 @@
       ],
       "files": [
         "main.f7b4621d.js",
-        "styles.c019022b.css",
+        "styles.ebf275d5.css",
         "main.f7b4621d.js.map",
-        "styles.c019022b.css.map"
+        "styles.ebf275d5.css.map"
       ],
       "hash": "f7b4621ddb9f13b1b580",
       "parents": [
@@ -9532,10 +9532,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.51cb30cb.js",
-        "bootstrap.51cb30cb.js.map"
+        "bootstrap.c7a3c239.js",
+        "bootstrap.c7a3c239.js.map"
       ],
-      "hash": "51cb30cb798539abf6fd",
+      "hash": "c7a3c239f521a5b2dcff",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -13343,7 +13343,7 @@
       "name": "./src/containers/Home.js",
       "index": 131,
       "index2": 145,
-      "size": 4149,
+      "size": 4218,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13382,7 +13382,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _difference_in_years = require('date-fns/difference_in_years');\n\nvar _difference_in_years2 = _interopRequireDefault(_difference_in_years);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _button = require('../components/button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nvar pupa = function pupa(template, data) {\n    if (typeof template !== 'string') {\n        throw new TypeError('Expected a string in the first argument, got ' + (typeof template === 'undefined' ? 'undefined' : _typeof(template)));\n    }\n\n    if ((typeof data === 'undefined' ? 'undefined' : _typeof(data)) !== 'object') {\n        throw new TypeError('Expected an Object/Array in the second argument, got ' + (typeof data === 'undefined' ? 'undefined' : _typeof(data)));\n    }\n\n    var regex = /{(.*?)}/g;\n\n    return template.replace(regex, function (_, key) {\n        var ret = data;\n\n        // eslint-disable-next-line\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n            for (var _iterator = key.split('.')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n                var prop = _step.value;\n\n                ret = ret ? ret[prop] : '';\n            }\n        } catch (err) {\n            _didIteratorError = true;\n            _iteratorError = err;\n        } finally {\n            try {\n                if (!_iteratorNormalCompletion && _iterator.return) {\n                    _iterator.return();\n                }\n            } finally {\n                if (_didIteratorError) {\n                    throw _iteratorError;\n                }\n            }\n        }\n\n        return ret || '';\n    });\n};\n\nvar greet = function greet() {\n    var hours = new Date().getHours();\n    if (hours >= 12) {\n        return hours > 17 ? 'God kväll' : 'God eftermiddag';\n    }\n\n    return 'Hallå där';\n};\n\nvar getAge = (0, _difference_in_years2.default)(new Date(), new Date(1992, 4, 8));\n\nexports.default = (0, _reactStatic.withRouteData)(function (data) {\n    if (typeof document !== 'undefined') {\n        var title = pupa(data.title.contents, { greeting: greet() });\n        var body = pupa(data.body.contents, { getAge: getAge });\n        return _react2.default.createElement(\n            _react2.default.Fragment,\n            null,\n            _react2.default.createElement(\n                'header',\n                { className: 'page-title' },\n                (0, _htmr2.default)(title)\n            ),\n            _react2.default.createElement(\n                'main',\n                { className: 'main-content' },\n                (0, _htmr2.default)(body),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'contact-wrap' },\n                    _react2.default.createElement(_button2.default, { text: 'Maila mig', href: 'mailto:jobb@johnie.se' }),\n                    _react2.default.createElement(\n                        'span',\n                        { className: 'sep' },\n                        'eller'\n                    ),\n                    _react2.default.createElement(_button2.default, {\n                        bg: 'var(--third-color)',\n                        color: 'white',\n                        text: 'Boka in mig i kalendern',\n                        href: 'https://calendly.com/johniehjelm/jobb/30min'\n                    })\n                )\n            )\n        );\n    }\n\n    return null;\n});"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _difference_in_years = require('date-fns/difference_in_years');\n\nvar _difference_in_years2 = _interopRequireDefault(_difference_in_years);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _button = require('../components/button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nvar pupa = function pupa(template, data) {\n    if (typeof template !== 'string') {\n        throw new TypeError('Expected a string in the first argument, got ' + (typeof template === 'undefined' ? 'undefined' : _typeof(template)));\n    }\n\n    if ((typeof data === 'undefined' ? 'undefined' : _typeof(data)) !== 'object') {\n        throw new TypeError('Expected an Object/Array in the second argument, got ' + (typeof data === 'undefined' ? 'undefined' : _typeof(data)));\n    }\n\n    var regex = /{(.*?)}/g;\n\n    return template.replace(regex, function (_, key) {\n        var ret = data;\n\n        // eslint-disable-next-line\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n            for (var _iterator = key.split('.')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n                var prop = _step.value;\n\n                ret = ret ? ret[prop] : '';\n            }\n        } catch (err) {\n            _didIteratorError = true;\n            _iteratorError = err;\n        } finally {\n            try {\n                if (!_iteratorNormalCompletion && _iterator.return) {\n                    _iterator.return();\n                }\n            } finally {\n                if (_didIteratorError) {\n                    throw _iteratorError;\n                }\n            }\n        }\n\n        return ret || '';\n    });\n};\n\nvar greet = function greet() {\n    var hours = new Date().getHours();\n    if (hours >= 12) {\n        return hours > 17 ? 'God kväll' : 'God eftermiddag';\n    }\n\n    return 'Hallå där';\n};\n\nvar getAge = (0, _difference_in_years2.default)(new Date(), new Date(1992, 4, 8));\n\nexports.default = (0, _reactStatic.withRouteData)(function (data) {\n    if (typeof document !== 'undefined') {\n        var title = pupa(data.title.contents, { greeting: greet() });\n        var body = pupa(data.body.contents, { getAge: getAge });\n        return _react2.default.createElement(\n            _react2.default.Fragment,\n            null,\n            _react2.default.createElement(\n                'header',\n                { className: 'page-title' },\n                (0, _htmr2.default)(title)\n            ),\n            _react2.default.createElement(\n                'main',\n                { className: 'main-content' },\n                (0, _htmr2.default)(body),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'contact-wrap' },\n                    _react2.default.createElement(_button2.default, {\n                        text: 'Maila mig',\n                        href: 'mailto:johnie@hjelm.im'\n                    }),\n                    _react2.default.createElement(\n                        'span',\n                        { className: 'sep' },\n                        'eller'\n                    ),\n                    _react2.default.createElement(_button2.default, {\n                        bg: 'var(--third-color)',\n                        color: 'white',\n                        text: 'Boka in mig i kalendern',\n                        href: 'https://calendly.com/johniehjelm/jobb/30min'\n                    })\n                )\n            )\n        );\n    }\n\n    return null;\n});"
     },
     {
       "id": 52,
