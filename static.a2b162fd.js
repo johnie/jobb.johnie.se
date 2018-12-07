@@ -348,17 +348,6 @@ exports.default = (0, _reactStatic.withRouteData)(function (data) {
                     _react2.default.createElement(_button2.default, {
                         text: 'Maila mig',
                         href: 'mailto:johnie@hjelm.im'
-                    }),
-                    _react2.default.createElement(
-                        'span',
-                        { className: 'sep' },
-                        'eller'
-                    ),
-                    _react2.default.createElement(_button2.default, {
-                        bg: 'var(--third-color)',
-                        color: 'white',
-                        text: 'Boka in mig i kalendern',
-                        href: 'https://calendly.com/johniehjelm/jobb/30min'
                     })
                 )
             )
@@ -1639,4 +1628,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.c88f304f.js.map
+//# sourceMappingURL=static.a2b162fd.js.map
