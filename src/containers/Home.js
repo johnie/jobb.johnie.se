@@ -57,13 +57,6 @@ export default withRouteData(data => {
                             text="Maila mig"
                             href="mailto:johnie@hjelm.im"
                         />
-                        <span className="sep">eller</span>
-                        <Button
-                            bg="var(--third-color)"
-                            color="white"
-                            text="Boka in mig i kalendern"
-                            href="https://calendly.com/johniehjelm/jobb/30min"
-                        />
                     </div>
                 </main>
             </React.Fragment>
