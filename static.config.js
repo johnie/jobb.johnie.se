@@ -6,7 +6,7 @@ import chokidar from 'chokidar';
 chokidar.watch('content').on('all', () => reloadRoutes());
 
 export default {
-    siteRoot: 'https://jobb.johniehjelm.me',
+    siteRoot: 'https://jobb.johnie.se',
     getSiteData: () => ({
         title: 'Johnie Hjelm',
         description:
@@ -58,7 +58,7 @@ export default {
                         />
                         <meta
                             property="og:url"
-                            content="https://jobb.johniehjelm.me/"
+                            content="https://jobb.johnie.se/"
                         />
                         <meta
                             property="og:site_name"
