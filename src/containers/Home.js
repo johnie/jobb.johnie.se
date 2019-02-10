@@ -43,25 +43,61 @@ const greet = () => {
 
 const getAge = differenceInYears(new Date(), new Date(1992, 4, 8));
 
-export default withRouteData(data => {
-    if (typeof document !== 'undefined') {
-        const title = pupa(data.title.contents, { greeting: greet() });
-        const body = pupa(data.body.contents, { getAge });
-        return (
-            <React.Fragment>
-                <header className="page-title">{convert(title)}</header>
-                <main className="main-content">
-                    {convert(body)}
-                    <div className="contact-wrap">
-                        <Button
-                            text="Maila mig"
-                            href="mailto:johnie@hjelm.im"
-                        />
-                    </div>
-                </main>
-            </React.Fragment>
-        );
+class Home extends React.Component {
+    state = {
+        muted: true
+    };
+
+    constructor() {
+        super();
+        this.toggleMute = this.toggleMute.bind(this);
     }
 
-    return null;
-});
+    toggleMute() {
+        this.setState(({ muted }) => ({ muted: !muted }));
+    }
+
+    render() {
+        if (typeof document !== 'undefined') {
+            const title = pupa(this.props.title.contents, {
+                greeting: greet()
+            });
+            const body = pupa(this.props.body.contents, { getAge });
+            return (
+                <React.Fragment>
+                    <header className="page-title">{convert(title)}</header>
+                    <div className="video-wrapper" onClick={this.toggleMute}>
+                        <video autoPlay loop muted={this.state.muted}>
+                            <source
+                                src="https://res.cloudinary.com/johnie/video/upload/v1549824948/johnie_xp7dhb.webm"
+                                type="video/webm"
+                            />
+                            <source
+                                src="https://res.cloudinary.com/johnie/video/upload/v1549824948/johnie_xp7dhb.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <div
+                            className={`sound-control ${
+                                !this.state.muted ? 'off' : ''
+                            }`}
+                        />
+                    </div>
+                    <main className="main-content">
+                        {convert(body)}
+                        <div className="contact-wrap">
+                            <Button
+                                text="Maila mig"
+                                href="mailto:johnie@hjelm.im"
+                            />
+                        </div>
+                    </main>
+                </React.Fragment>
+            );
+        }
+
+        return null;
+    }
+}
+
+export default withRouteData(Home);
