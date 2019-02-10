@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "430f853edde73abf8fa4",
-  "time": 8818,
+  "hash": "2a2bf6320df81b7554ff",
+  "time": 9167,
   "publicPath": "https://jobb.johniehjelm.me/",
   "assetsByChunkName": {
     "src/containers/Woho": [
@@ -11,8 +11,8 @@
       "templates/src/containers/Woho.70f049cf.js.map"
     ],
     "src/containers/Home": [
-      "templates/src/containers/Home.7b5d64d2.js",
-      "templates/src/containers/Home.7b5d64d2.js.map"
+      "templates/src/containers/Home.9238333b.js",
+      "templates/src/containers/Home.9238333b.js.map"
     ],
     "src/containers/404": [
       "templates/src/containers/404.29f14cf9.js",
@@ -20,13 +20,13 @@
     ],
     "main": [
       "main.c8b3a07c.js",
-      "styles.430f853e.css",
+      "styles.2a2bf632.css",
       "main.c8b3a07c.js.map",
-      "styles.430f853e.css.map"
+      "styles.2a2bf632.css.map"
     ],
     "bootstrap": [
-      "bootstrap.298946c1.js",
-      "bootstrap.298946c1.js.map"
+      "bootstrap.2fad8a9f.js",
+      "bootstrap.2fad8a9f.js.map"
     ]
   },
   "assets": [
@@ -42,8 +42,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Home.7b5d64d2.js",
-      "size": 54276,
+      "name": "templates/src/containers/Home.9238333b.js",
+      "size": 55953,
       "chunks": [
         1
       ],
@@ -76,7 +76,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.298946c1.js",
+      "name": "bootstrap.2fad8a9f.js",
       "size": 1569,
       "chunks": [
         4
@@ -87,8 +87,8 @@
       "emitted": true
     },
     {
-      "name": "styles.430f853e.css",
-      "size": 5601,
+      "name": "styles.2a2bf632.css",
+      "size": 5896,
       "chunks": [
         3
       ],
@@ -109,8 +109,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Home.7b5d64d2.js.map",
-      "size": 331407,
+      "name": "templates/src/containers/Home.9238333b.js.map",
+      "size": 338087,
       "chunks": [
         1
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.430f853e.css.map",
+      "name": "styles.2a2bf632.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,7 +153,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.298946c1.js.map",
+      "name": "bootstrap.2fad8a9f.js.map",
       "size": 14488,
       "chunks": [
         4
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.298946c1.js",
-        "bootstrap.298946c1.js.map",
+        "bootstrap.2fad8a9f.js",
+        "bootstrap.2fad8a9f.js.map",
         "main.c8b3a07c.js",
-        "styles.430f853e.css",
+        "styles.2a2bf632.css",
         "main.c8b3a07c.js.map",
-        "styles.430f853e.css.map"
+        "styles.2a2bf632.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -432,9 +432,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/date-fns/get_iso_year/index.js",
-          "issuerId": 138,
-          "issuerName": "./node_modules/date-fns/get_iso_year/index.js",
+          "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/date-fns/get_iso_week/index.js",
+          "issuerId": 160,
+          "issuerName": "./node_modules/date-fns/get_iso_week/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1157,15 +1157,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 123261,
+      "size": 126861,
       "names": [
         "src/containers/Home"
       ],
       "files": [
-        "templates/src/containers/Home.7b5d64d2.js",
-        "templates/src/containers/Home.7b5d64d2.js.map"
+        "templates/src/containers/Home.9238333b.js",
+        "templates/src/containers/Home.9238333b.js.map"
       ],
-      "hash": "7b5d64d2d5aa49e34f98",
+      "hash": "9238333b431b65899116",
       "parents": [
         3
       ],
@@ -1176,7 +1176,7 @@
           "name": "./src/containers/Home.js",
           "index": 131,
           "index2": 145,
-          "size": 3717,
+          "size": 7317,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1215,7 +1215,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _difference_in_years = require('date-fns/difference_in_years');\n\nvar _difference_in_years2 = _interopRequireDefault(_difference_in_years);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _button = require('../components/button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nvar pupa = function pupa(template, data) {\n    if (typeof template !== 'string') {\n        throw new TypeError('Expected a string in the first argument, got ' + (typeof template === 'undefined' ? 'undefined' : _typeof(template)));\n    }\n\n    if ((typeof data === 'undefined' ? 'undefined' : _typeof(data)) !== 'object') {\n        throw new TypeError('Expected an Object/Array in the second argument, got ' + (typeof data === 'undefined' ? 'undefined' : _typeof(data)));\n    }\n\n    var regex = /{(.*?)}/g;\n\n    return template.replace(regex, function (_, key) {\n        var ret = data;\n\n        // eslint-disable-next-line\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n            for (var _iterator = key.split('.')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n                var prop = _step.value;\n\n                ret = ret ? ret[prop] : '';\n            }\n        } catch (err) {\n            _didIteratorError = true;\n            _iteratorError = err;\n        } finally {\n            try {\n                if (!_iteratorNormalCompletion && _iterator.return) {\n                    _iterator.return();\n                }\n            } finally {\n                if (_didIteratorError) {\n                    throw _iteratorError;\n                }\n            }\n        }\n\n        return ret || '';\n    });\n};\n\nvar greet = function greet() {\n    var hours = new Date().getHours();\n    if (hours >= 12) {\n        return hours > 17 ? 'God kväll' : 'God eftermiddag';\n    }\n\n    return 'Hallå där';\n};\n\nvar getAge = (0, _difference_in_years2.default)(new Date(), new Date(1992, 4, 8));\n\nexports.default = (0, _reactStatic.withRouteData)(function (data) {\n    if (typeof document !== 'undefined') {\n        var title = pupa(data.title.contents, { greeting: greet() });\n        var body = pupa(data.body.contents, { getAge: getAge });\n        return _react2.default.createElement(\n            _react2.default.Fragment,\n            null,\n            _react2.default.createElement(\n                'header',\n                { className: 'page-title' },\n                (0, _htmr2.default)(title)\n            ),\n            _react2.default.createElement(\n                'main',\n                { className: 'main-content' },\n                (0, _htmr2.default)(body),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'contact-wrap' },\n                    _react2.default.createElement(_button2.default, {\n                        text: 'Maila mig',\n                        href: 'mailto:johnie@hjelm.im'\n                    })\n                )\n            )\n        );\n    }\n\n    return null;\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _difference_in_years = require('date-fns/difference_in_years');\n\nvar _difference_in_years2 = _interopRequireDefault(_difference_in_years);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _button = require('../components/button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n//\n\nvar pupa = function pupa(template, data) {\n    if (typeof template !== 'string') {\n        throw new TypeError('Expected a string in the first argument, got ' + (typeof template === 'undefined' ? 'undefined' : _typeof(template)));\n    }\n\n    if ((typeof data === 'undefined' ? 'undefined' : _typeof(data)) !== 'object') {\n        throw new TypeError('Expected an Object/Array in the second argument, got ' + (typeof data === 'undefined' ? 'undefined' : _typeof(data)));\n    }\n\n    var regex = /{(.*?)}/g;\n\n    return template.replace(regex, function (_, key) {\n        var ret = data;\n\n        // eslint-disable-next-line\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n            for (var _iterator = key.split('.')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n                var prop = _step.value;\n\n                ret = ret ? ret[prop] : '';\n            }\n        } catch (err) {\n            _didIteratorError = true;\n            _iteratorError = err;\n        } finally {\n            try {\n                if (!_iteratorNormalCompletion && _iterator.return) {\n                    _iterator.return();\n                }\n            } finally {\n                if (_didIteratorError) {\n                    throw _iteratorError;\n                }\n            }\n        }\n\n        return ret || '';\n    });\n};\n\nvar greet = function greet() {\n    var hours = new Date().getHours();\n    if (hours >= 12) {\n        return hours > 17 ? 'God kväll' : 'God eftermiddag';\n    }\n\n    return 'Hallå där';\n};\n\nvar getAge = (0, _difference_in_years2.default)(new Date(), new Date(1992, 4, 8));\n\nvar Home = function (_React$Component) {\n    _inherits(Home, _React$Component);\n\n    function Home() {\n        _classCallCheck(this, Home);\n\n        var _this = _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this));\n\n        _this.state = {\n            muted: true\n        };\n\n        _this.toggleMute = _this.toggleMute.bind(_this);\n        return _this;\n    }\n\n    _createClass(Home, [{\n        key: 'toggleMute',\n        value: function toggleMute() {\n            this.setState(function (_ref) {\n                var muted = _ref.muted;\n                return { muted: !muted };\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            if (typeof document !== 'undefined') {\n                var title = pupa(this.props.title.contents, {\n                    greeting: greet()\n                });\n                var body = pupa(this.props.body.contents, { getAge: getAge });\n                return _react2.default.createElement(\n                    _react2.default.Fragment,\n                    null,\n                    _react2.default.createElement(\n                        'header',\n                        { className: 'page-title' },\n                        (0, _htmr2.default)(title)\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'video-wrapper', onClick: this.toggleMute },\n                        _react2.default.createElement(\n                            'video',\n                            { autoPlay: true, loop: true, muted: this.state.muted },\n                            _react2.default.createElement('source', {\n                                src: 'https://res.cloudinary.com/johnie/video/upload/v1549824948/johnie_xp7dhb.webm',\n                                type: 'video/webm'\n                            }),\n                            _react2.default.createElement('source', {\n                                src: 'https://res.cloudinary.com/johnie/video/upload/v1549824948/johnie_xp7dhb.mp4',\n                                type: 'video/mp4'\n                            })\n                        ),\n                        _react2.default.createElement('div', {\n                            className: 'sound-control ' + (!this.state.muted ? 'off' : '')\n                        })\n                    ),\n                    _react2.default.createElement(\n                        'main',\n                        { className: 'main-content' },\n                        (0, _htmr2.default)(body),\n                        _react2.default.createElement(\n                            'div',\n                            { className: 'contact-wrap' },\n                            _react2.default.createElement(_button2.default, {\n                                text: 'Maila mig',\n                                href: 'mailto:johnie@hjelm.im'\n                            })\n                        )\n                    )\n                );\n            }\n\n            return null;\n        }\n    }]);\n\n    return Home;\n}(_react2.default.Component);\n\nexports.default = (0, _reactStatic.withRouteData)(Home);"
         },
         {
           "id": 135,
@@ -1414,7 +1414,7 @@
               "moduleName": "./src/containers/Home.js",
               "type": "cjs require",
               "userRequest": "date-fns/difference_in_years",
-              "loc": "15:27-66"
+              "loc": "17:27-66"
             }
           ],
           "usedExports": true,
@@ -1528,7 +1528,7 @@
               "moduleName": "./src/containers/Home.js",
               "type": "cjs require",
               "userRequest": "htmr",
-              "loc": "19:12-27"
+              "loc": "21:12-27"
             }
           ],
           "usedExports": true,
@@ -1566,7 +1566,7 @@
               "moduleName": "./src/containers/Home.js",
               "type": "cjs require",
               "userRequest": "../components/button",
-              "loc": "23:14-45"
+              "loc": "25:14-45"
             }
           ],
           "usedExports": true,
@@ -2098,9 +2098,9 @@
       ],
       "files": [
         "main.c8b3a07c.js",
-        "styles.430f853e.css",
+        "styles.2a2bf632.css",
         "main.c8b3a07c.js.map",
-        "styles.430f853e.css.map"
+        "styles.2a2bf632.css.map"
       ],
       "hash": "c8b3a07cb9506d184945",
       "parents": [
@@ -2208,7 +2208,7 @@
               "moduleName": "./src/containers/Home.js",
               "type": "cjs require",
               "userRequest": "react",
-              "loc": "9:13-29"
+              "loc": "11:13-29"
             },
             {
               "moduleId": 52,
@@ -4688,7 +4688,7 @@
               "moduleName": "./src/containers/Home.js",
               "type": "cjs require",
               "userRequest": "react-static",
-              "loc": "13:19-42"
+              "loc": "15:19-42"
             },
             {
               "moduleId": 52,
@@ -9077,10 +9077,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.298946c1.js",
-        "bootstrap.298946c1.js.map"
+        "bootstrap.2fad8a9f.js",
+        "bootstrap.2fad8a9f.js.map"
       ],
-      "hash": "298946c13d6ad4d859d3",
+      "hash": "2fad8a9f43e794a2270f",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -9189,7 +9189,7 @@
           "moduleName": "./src/containers/Home.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "9:13-29"
+          "loc": "11:13-29"
         },
         {
           "moduleId": 52,
@@ -11669,7 +11669,7 @@
           "moduleName": "./src/containers/Home.js",
           "type": "cjs require",
           "userRequest": "react-static",
-          "loc": "13:19-42"
+          "loc": "15:19-42"
         },
         {
           "moduleId": 52,
@@ -12888,7 +12888,7 @@
       "name": "./src/containers/Home.js",
       "index": 131,
       "index2": 145,
-      "size": 3717,
+      "size": 7317,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -12927,7 +12927,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _difference_in_years = require('date-fns/difference_in_years');\n\nvar _difference_in_years2 = _interopRequireDefault(_difference_in_years);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _button = require('../components/button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nvar pupa = function pupa(template, data) {\n    if (typeof template !== 'string') {\n        throw new TypeError('Expected a string in the first argument, got ' + (typeof template === 'undefined' ? 'undefined' : _typeof(template)));\n    }\n\n    if ((typeof data === 'undefined' ? 'undefined' : _typeof(data)) !== 'object') {\n        throw new TypeError('Expected an Object/Array in the second argument, got ' + (typeof data === 'undefined' ? 'undefined' : _typeof(data)));\n    }\n\n    var regex = /{(.*?)}/g;\n\n    return template.replace(regex, function (_, key) {\n        var ret = data;\n\n        // eslint-disable-next-line\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n            for (var _iterator = key.split('.')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n                var prop = _step.value;\n\n                ret = ret ? ret[prop] : '';\n            }\n        } catch (err) {\n            _didIteratorError = true;\n            _iteratorError = err;\n        } finally {\n            try {\n                if (!_iteratorNormalCompletion && _iterator.return) {\n                    _iterator.return();\n                }\n            } finally {\n                if (_didIteratorError) {\n                    throw _iteratorError;\n                }\n            }\n        }\n\n        return ret || '';\n    });\n};\n\nvar greet = function greet() {\n    var hours = new Date().getHours();\n    if (hours >= 12) {\n        return hours > 17 ? 'God kväll' : 'God eftermiddag';\n    }\n\n    return 'Hallå där';\n};\n\nvar getAge = (0, _difference_in_years2.default)(new Date(), new Date(1992, 4, 8));\n\nexports.default = (0, _reactStatic.withRouteData)(function (data) {\n    if (typeof document !== 'undefined') {\n        var title = pupa(data.title.contents, { greeting: greet() });\n        var body = pupa(data.body.contents, { getAge: getAge });\n        return _react2.default.createElement(\n            _react2.default.Fragment,\n            null,\n            _react2.default.createElement(\n                'header',\n                { className: 'page-title' },\n                (0, _htmr2.default)(title)\n            ),\n            _react2.default.createElement(\n                'main',\n                { className: 'main-content' },\n                (0, _htmr2.default)(body),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'contact-wrap' },\n                    _react2.default.createElement(_button2.default, {\n                        text: 'Maila mig',\n                        href: 'mailto:johnie@hjelm.im'\n                    })\n                )\n            )\n        );\n    }\n\n    return null;\n});"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _difference_in_years = require('date-fns/difference_in_years');\n\nvar _difference_in_years2 = _interopRequireDefault(_difference_in_years);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _button = require('../components/button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n//\n\nvar pupa = function pupa(template, data) {\n    if (typeof template !== 'string') {\n        throw new TypeError('Expected a string in the first argument, got ' + (typeof template === 'undefined' ? 'undefined' : _typeof(template)));\n    }\n\n    if ((typeof data === 'undefined' ? 'undefined' : _typeof(data)) !== 'object') {\n        throw new TypeError('Expected an Object/Array in the second argument, got ' + (typeof data === 'undefined' ? 'undefined' : _typeof(data)));\n    }\n\n    var regex = /{(.*?)}/g;\n\n    return template.replace(regex, function (_, key) {\n        var ret = data;\n\n        // eslint-disable-next-line\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n            for (var _iterator = key.split('.')[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n                var prop = _step.value;\n\n                ret = ret ? ret[prop] : '';\n            }\n        } catch (err) {\n            _didIteratorError = true;\n            _iteratorError = err;\n        } finally {\n            try {\n                if (!_iteratorNormalCompletion && _iterator.return) {\n                    _iterator.return();\n                }\n            } finally {\n                if (_didIteratorError) {\n                    throw _iteratorError;\n                }\n            }\n        }\n\n        return ret || '';\n    });\n};\n\nvar greet = function greet() {\n    var hours = new Date().getHours();\n    if (hours >= 12) {\n        return hours > 17 ? 'God kväll' : 'God eftermiddag';\n    }\n\n    return 'Hallå där';\n};\n\nvar getAge = (0, _difference_in_years2.default)(new Date(), new Date(1992, 4, 8));\n\nvar Home = function (_React$Component) {\n    _inherits(Home, _React$Component);\n\n    function Home() {\n        _classCallCheck(this, Home);\n\n        var _this = _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this));\n\n        _this.state = {\n            muted: true\n        };\n\n        _this.toggleMute = _this.toggleMute.bind(_this);\n        return _this;\n    }\n\n    _createClass(Home, [{\n        key: 'toggleMute',\n        value: function toggleMute() {\n            this.setState(function (_ref) {\n                var muted = _ref.muted;\n                return { muted: !muted };\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            if (typeof document !== 'undefined') {\n                var title = pupa(this.props.title.contents, {\n                    greeting: greet()\n                });\n                var body = pupa(this.props.body.contents, { getAge: getAge });\n                return _react2.default.createElement(\n                    _react2.default.Fragment,\n                    null,\n                    _react2.default.createElement(\n                        'header',\n                        { className: 'page-title' },\n                        (0, _htmr2.default)(title)\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'video-wrapper', onClick: this.toggleMute },\n                        _react2.default.createElement(\n                            'video',\n                            { autoPlay: true, loop: true, muted: this.state.muted },\n                            _react2.default.createElement('source', {\n                                src: 'https://res.cloudinary.com/johnie/video/upload/v1549824948/johnie_xp7dhb.webm',\n                                type: 'video/webm'\n                            }),\n                            _react2.default.createElement('source', {\n                                src: 'https://res.cloudinary.com/johnie/video/upload/v1549824948/johnie_xp7dhb.mp4',\n                                type: 'video/mp4'\n                            })\n                        ),\n                        _react2.default.createElement('div', {\n                            className: 'sound-control ' + (!this.state.muted ? 'off' : '')\n                        })\n                    ),\n                    _react2.default.createElement(\n                        'main',\n                        { className: 'main-content' },\n                        (0, _htmr2.default)(body),\n                        _react2.default.createElement(\n                            'div',\n                            { className: 'contact-wrap' },\n                            _react2.default.createElement(_button2.default, {\n                                text: 'Maila mig',\n                                href: 'mailto:johnie@hjelm.im'\n                            })\n                        )\n                    )\n                );\n            }\n\n            return null;\n        }\n    }]);\n\n    return Home;\n}(_react2.default.Component);\n\nexports.default = (0, _reactStatic.withRouteData)(Home);"
     },
     {
       "id": 52,
@@ -16357,9 +16357,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/date-fns/get_iso_year/index.js",
-      "issuerId": 138,
-      "issuerName": "./node_modules/date-fns/get_iso_year/index.js",
+      "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/date-fns/get_iso_week/index.js",
+      "issuerId": 160,
+      "issuerName": "./node_modules/date-fns/get_iso_week/index.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16521,7 +16521,7 @@
           "moduleName": "./src/containers/Home.js",
           "type": "cjs require",
           "userRequest": "date-fns/difference_in_years",
-          "loc": "15:27-66"
+          "loc": "17:27-66"
         }
       ],
       "usedExports": true,
@@ -16635,7 +16635,7 @@
           "moduleName": "./src/containers/Home.js",
           "type": "cjs require",
           "userRequest": "htmr",
-          "loc": "19:12-27"
+          "loc": "21:12-27"
         }
       ],
       "usedExports": true,
@@ -16673,7 +16673,7 @@
           "moduleName": "./src/containers/Home.js",
           "type": "cjs require",
           "userRequest": "../components/button",
-          "loc": "23:14-45"
+          "loc": "25:14-45"
         }
       ],
       "usedExports": true,
@@ -17696,12 +17696,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 8039,
+          "size": 8338,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "72ccb2f4132ce6643507",
+          "hash": "ee734116b65d74e4001e",
           "parents": [],
           "modules": [
             {
@@ -17710,7 +17710,7 @@
               "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./src/app.css",
               "index": 0,
               "index2": 1,
-              "size": 5779,
+              "size": 6078,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -17730,7 +17730,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \":root{--main-color:#fedf22;--secondary-color:#fa6b5d;--third-color:#4854f1}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Book.80e9c364.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Book.0127ef90.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Book.bd0af0b6.ttf) format(\\\"truetype\\\");font-weight:400;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BookItalic.b62b5b94.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BookItalic.216dec70.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BookItalic.58743b16.ttf) format(\\\"truetype\\\");font-weight:400;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Medium.eedf0753.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Medium.7b2b40bc.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Medium.f089a9ed.ttf) format(\\\"truetype\\\");font-weight:500;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-MediumItalic.9465a375.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-MediumItalic.042e5cd0.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-MediumItalic.8dba7a2e.ttf) format(\\\"truetype\\\");font-weight:500;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Bold.c3d5e041.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Bold.3846ec55.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Bold.4103a6b3.ttf) format(\\\"truetype\\\");font-weight:700;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BoldItalic.715911a7.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BoldItalic.409f5a04.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BoldItalic.e099e247.ttf) format(\\\"truetype\\\");font-weight:700;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Black.8dad6d94.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Black.4cbaf5d7.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Black.797785a9.ttf) format(\\\"truetype\\\");font-weight:900;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BlackItalic.e78f3095.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BlackItalic.ad15ff54.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BlackItalic.70499120.ttf) format(\\\"truetype\\\");font-weight:900;font-style:italic}body{margin:0;padding:0;font-family:Circular Std,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;font-size:16px;-webkit-font-feature-settings:\\\"liga\\\",\\\"kern\\\";font-feature-settings:\\\"liga\\\",\\\"kern\\\";text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;background:var(--main-color) url(\\\"/assets/images/confetti.svg\\\");background-size:300%}a,body{color:#000}a{text-decoration:none;display:inline-block;font-weight:600;position:relative}a:before{content:\\\"\\\";display:block;position:absolute;height:6px;width:100%;bottom:8px;left:0;background-color:var(--secondary-color);z-index:-1}.content,img{max-width:100%}.content{margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:16px;padding-left:16px;padding-bottom:3em;width:988px}h1{font-size:calc(2.5rem + 2vh);letter-spacing:.1rem}h1,h2{font-weight:900}h2{margin:.33em 0}h2,h3{font-size:calc(1rem + 2vh)}h3{font-weight:500;margin-top:.5em;margin-bottom:.5em}h4{font-size:1.2em;margin:1em auto 0}h4,h5{font-weight:700}h5{font-size:1em;margin:1em auto .5em}p{line-height:1.68;font-size:calc(1rem + 1vh)}.page-title{padding:3em 0}.page-title h1{margin:0}.insta-image{width:16.6666666%}.insta-image img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.main-content .content-image{float:right;margin:0 0 3em 2em;position:relative}.main-content .content-image:before{width:100%;height:100%;border:4px solid #000;top:-11px;left:-11px;z-index:2}.main-content .content-image:after,.main-content .content-image:before{content:\\\"\\\";display:block;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute}.main-content .content-image:after{width:80px;height:200px;background:url(\\\"/assets/images/sm-dot-pattern-red.svg\\\");background-size:cover;bottom:0;left:11px;z-index:1}.main-content .content-image img{margin-bottom:-4px;-webkit-box-shadow:10px 10px #fff;box-shadow:10px 10px #fff}.contact-wrap{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-align:center;align-items:center;max-width:700px;margin:0 auto;padding:3em 0}.contact-wrap .sep{font-weight:700;font-style:italic;font-size:1.2rem}.woho-wrap{background-color:#fff;margin:16px;max-width:600px;padding:1.5em;border-radius:1em;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-box-shadow:8px 8px var(--secondary-color);box-shadow:8px 8px var(--secondary-color)}.woho-wrap,.woho-wrap:before{position:absolute;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}.woho-wrap:before{content:\\\"\\\";display:block;top:-8px;left:-8px;border:2px solid #000;height:100%;border-radius:1em}@media (max-width:32em){body{background-size:700%}.page-title{padding:1.5em 0}.main-content .content-image{float:none;margin:1em 0 2em;display:block;position:relative}h1{font-size:calc(1rem + 2vh)}h2,h3{font-size:calc(.5rem + 2vh)}p{font-size:1.2rem}.contact-wrap{-ms-flex-direction:column;flex-direction:column}.contact-wrap .sep{display:block;padding:1em 0}a:before{height:5px}.woho-wrap{width:90%;top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \":root{--main-color:#fedf22;--secondary-color:#fa6b5d;--third-color:#4854f1}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Book.80e9c364.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Book.0127ef90.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Book.bd0af0b6.ttf) format(\\\"truetype\\\");font-weight:400;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BookItalic.b62b5b94.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BookItalic.216dec70.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BookItalic.58743b16.ttf) format(\\\"truetype\\\");font-weight:400;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Medium.eedf0753.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Medium.7b2b40bc.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Medium.f089a9ed.ttf) format(\\\"truetype\\\");font-weight:500;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-MediumItalic.9465a375.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-MediumItalic.042e5cd0.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-MediumItalic.8dba7a2e.ttf) format(\\\"truetype\\\");font-weight:500;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Bold.c3d5e041.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Bold.3846ec55.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Bold.4103a6b3.ttf) format(\\\"truetype\\\");font-weight:700;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BoldItalic.715911a7.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BoldItalic.409f5a04.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BoldItalic.e099e247.ttf) format(\\\"truetype\\\");font-weight:700;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Black.8dad6d94.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Black.4cbaf5d7.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Black.797785a9.ttf) format(\\\"truetype\\\");font-weight:900;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BlackItalic.e78f3095.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BlackItalic.ad15ff54.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BlackItalic.70499120.ttf) format(\\\"truetype\\\");font-weight:900;font-style:italic}body{margin:0;padding:0;font-family:Circular Std,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;font-size:16px;-webkit-font-feature-settings:\\\"liga\\\",\\\"kern\\\";font-feature-settings:\\\"liga\\\",\\\"kern\\\";text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;background:var(--main-color) url(\\\"/assets/images/confetti.svg\\\");background-size:300%}a,body{color:#000}a{text-decoration:none;display:inline-block;font-weight:600;position:relative}a:before{content:\\\"\\\";display:block;position:absolute;height:6px;width:100%;bottom:8px;left:0;background-color:var(--secondary-color);z-index:-1}.content,img{max-width:100%}.content{margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:16px;padding-left:16px;padding-bottom:3em;width:988px}h1{font-size:calc(2.5rem + 2vh);letter-spacing:.1rem}h1,h2{font-weight:900}h2{margin:.33em 0}h2,h3{font-size:calc(1rem + 2vh)}h3{font-weight:500;margin-top:.5em;margin-bottom:.5em}h4{font-size:1.2em;margin:1em auto 0}h4,h5{font-weight:700}h5{font-size:1em;margin:1em auto .5em}p{line-height:1.68;font-size:calc(1rem + 1vh)}.page-title{padding:3em 0}.page-title h1{margin:0}.insta-image{width:16.6666666%}.insta-image img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.video-wrapper{float:right;margin:0 0 3em 2em;position:relative}.video-wrapper video{max-width:400px;height:auto}.video-wrapper:before{width:100%;height:100%;border:4px solid #000;top:-11px;left:-11px;z-index:2}.video-wrapper:after,.video-wrapper:before{content:\\\"\\\";display:block;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute}.video-wrapper:after{width:80px;height:200px;background:url(\\\"/assets/images/sm-dot-pattern-red.svg\\\");background-size:cover;bottom:0;left:11px;z-index:1}.video-wrapper img{margin-bottom:-4px;-webkit-box-shadow:10px 10px #fff;box-shadow:10px 10px #fff}.sound-control{width:20px;height:20px;background:url(\\\"/assets/images/mute.svg\\\");background-repeat:no-repeat;bottom:20px;right:25px;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute;z-index:1;background-size:100%}.sound-control.off{background-image:url(\\\"/assets/images/sound.svg\\\")}.contact-wrap{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-align:center;align-items:center;max-width:700px;margin:0 auto;padding:3em 0}.contact-wrap .sep{font-weight:700;font-style:italic;font-size:1.2rem}.woho-wrap{background-color:#fff;margin:16px;max-width:600px;padding:1.5em;border-radius:1em;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-box-shadow:8px 8px var(--secondary-color);box-shadow:8px 8px var(--secondary-color)}.woho-wrap,.woho-wrap:before{position:absolute;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}.woho-wrap:before{content:\\\"\\\";display:block;top:-8px;left:-8px;border:2px solid #000;height:100%;border-radius:1em}@media (max-width:32em){body{background-size:700%}.page-title{padding:1.5em 0}.video-wrapper{float:none;margin:1em 0 2em;display:block;position:relative}.video-wrapper video{width:100%;height:auto}h1{font-size:calc(1rem + 2vh)}h2,h3{font-size:calc(.5rem + 2vh)}p{font-size:1.2rem}.contact-wrap{-ms-flex-direction:column;flex-direction:column}.contact-wrap .sep{display:block;padding:1em 0}a:before{height:5px}.woho-wrap{width:90%;top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -17791,7 +17791,7 @@
           "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./src/app.css",
           "index": 0,
           "index2": 1,
-          "size": 5779,
+          "size": 6078,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -17811,7 +17811,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \":root{--main-color:#fedf22;--secondary-color:#fa6b5d;--third-color:#4854f1}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Book.80e9c364.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Book.0127ef90.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Book.bd0af0b6.ttf) format(\\\"truetype\\\");font-weight:400;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BookItalic.b62b5b94.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BookItalic.216dec70.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BookItalic.58743b16.ttf) format(\\\"truetype\\\");font-weight:400;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Medium.eedf0753.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Medium.7b2b40bc.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Medium.f089a9ed.ttf) format(\\\"truetype\\\");font-weight:500;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-MediumItalic.9465a375.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-MediumItalic.042e5cd0.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-MediumItalic.8dba7a2e.ttf) format(\\\"truetype\\\");font-weight:500;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Bold.c3d5e041.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Bold.3846ec55.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Bold.4103a6b3.ttf) format(\\\"truetype\\\");font-weight:700;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BoldItalic.715911a7.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BoldItalic.409f5a04.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BoldItalic.e099e247.ttf) format(\\\"truetype\\\");font-weight:700;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Black.8dad6d94.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Black.4cbaf5d7.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Black.797785a9.ttf) format(\\\"truetype\\\");font-weight:900;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BlackItalic.e78f3095.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BlackItalic.ad15ff54.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BlackItalic.70499120.ttf) format(\\\"truetype\\\");font-weight:900;font-style:italic}body{margin:0;padding:0;font-family:Circular Std,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;font-size:16px;-webkit-font-feature-settings:\\\"liga\\\",\\\"kern\\\";font-feature-settings:\\\"liga\\\",\\\"kern\\\";text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;background:var(--main-color) url(\\\"/assets/images/confetti.svg\\\");background-size:300%}a,body{color:#000}a{text-decoration:none;display:inline-block;font-weight:600;position:relative}a:before{content:\\\"\\\";display:block;position:absolute;height:6px;width:100%;bottom:8px;left:0;background-color:var(--secondary-color);z-index:-1}.content,img{max-width:100%}.content{margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:16px;padding-left:16px;padding-bottom:3em;width:988px}h1{font-size:calc(2.5rem + 2vh);letter-spacing:.1rem}h1,h2{font-weight:900}h2{margin:.33em 0}h2,h3{font-size:calc(1rem + 2vh)}h3{font-weight:500;margin-top:.5em;margin-bottom:.5em}h4{font-size:1.2em;margin:1em auto 0}h4,h5{font-weight:700}h5{font-size:1em;margin:1em auto .5em}p{line-height:1.68;font-size:calc(1rem + 1vh)}.page-title{padding:3em 0}.page-title h1{margin:0}.insta-image{width:16.6666666%}.insta-image img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.main-content .content-image{float:right;margin:0 0 3em 2em;position:relative}.main-content .content-image:before{width:100%;height:100%;border:4px solid #000;top:-11px;left:-11px;z-index:2}.main-content .content-image:after,.main-content .content-image:before{content:\\\"\\\";display:block;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute}.main-content .content-image:after{width:80px;height:200px;background:url(\\\"/assets/images/sm-dot-pattern-red.svg\\\");background-size:cover;bottom:0;left:11px;z-index:1}.main-content .content-image img{margin-bottom:-4px;-webkit-box-shadow:10px 10px #fff;box-shadow:10px 10px #fff}.contact-wrap{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-align:center;align-items:center;max-width:700px;margin:0 auto;padding:3em 0}.contact-wrap .sep{font-weight:700;font-style:italic;font-size:1.2rem}.woho-wrap{background-color:#fff;margin:16px;max-width:600px;padding:1.5em;border-radius:1em;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-box-shadow:8px 8px var(--secondary-color);box-shadow:8px 8px var(--secondary-color)}.woho-wrap,.woho-wrap:before{position:absolute;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}.woho-wrap:before{content:\\\"\\\";display:block;top:-8px;left:-8px;border:2px solid #000;height:100%;border-radius:1em}@media (max-width:32em){body{background-size:700%}.page-title{padding:1.5em 0}.main-content .content-image{float:none;margin:1em 0 2em;display:block;position:relative}h1{font-size:calc(1rem + 2vh)}h2,h3{font-size:calc(.5rem + 2vh)}p{font-size:1.2rem}.contact-wrap{-ms-flex-direction:column;flex-direction:column}.contact-wrap .sep{display:block;padding:1em 0}a:before{height:5px}.woho-wrap{width:90%;top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \":root{--main-color:#fedf22;--secondary-color:#fa6b5d;--third-color:#4854f1}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Book.80e9c364.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Book.0127ef90.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Book.bd0af0b6.ttf) format(\\\"truetype\\\");font-weight:400;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BookItalic.b62b5b94.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BookItalic.216dec70.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BookItalic.58743b16.ttf) format(\\\"truetype\\\");font-weight:400;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Medium.eedf0753.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Medium.7b2b40bc.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Medium.f089a9ed.ttf) format(\\\"truetype\\\");font-weight:500;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-MediumItalic.9465a375.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-MediumItalic.042e5cd0.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-MediumItalic.8dba7a2e.ttf) format(\\\"truetype\\\");font-weight:500;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Bold.c3d5e041.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Bold.3846ec55.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Bold.4103a6b3.ttf) format(\\\"truetype\\\");font-weight:700;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BoldItalic.715911a7.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BoldItalic.409f5a04.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BoldItalic.e099e247.ttf) format(\\\"truetype\\\");font-weight:700;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Black.8dad6d94.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-Black.4cbaf5d7.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-Black.797785a9.ttf) format(\\\"truetype\\\");font-weight:900;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BlackItalic.e78f3095.woff2) format(\\\"woff2\\\"),url(/assets/fonts/CircularStd-BlackItalic.ad15ff54.woff) format(\\\"woff\\\"),url(/assets/fonts/CircularStd-BlackItalic.70499120.ttf) format(\\\"truetype\\\");font-weight:900;font-style:italic}body{margin:0;padding:0;font-family:Circular Std,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;font-size:16px;-webkit-font-feature-settings:\\\"liga\\\",\\\"kern\\\";font-feature-settings:\\\"liga\\\",\\\"kern\\\";text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;background:var(--main-color) url(\\\"/assets/images/confetti.svg\\\");background-size:300%}a,body{color:#000}a{text-decoration:none;display:inline-block;font-weight:600;position:relative}a:before{content:\\\"\\\";display:block;position:absolute;height:6px;width:100%;bottom:8px;left:0;background-color:var(--secondary-color);z-index:-1}.content,img{max-width:100%}.content{margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:16px;padding-left:16px;padding-bottom:3em;width:988px}h1{font-size:calc(2.5rem + 2vh);letter-spacing:.1rem}h1,h2{font-weight:900}h2{margin:.33em 0}h2,h3{font-size:calc(1rem + 2vh)}h3{font-weight:500;margin-top:.5em;margin-bottom:.5em}h4{font-size:1.2em;margin:1em auto 0}h4,h5{font-weight:700}h5{font-size:1em;margin:1em auto .5em}p{line-height:1.68;font-size:calc(1rem + 1vh)}.page-title{padding:3em 0}.page-title h1{margin:0}.insta-image{width:16.6666666%}.insta-image img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.video-wrapper{float:right;margin:0 0 3em 2em;position:relative}.video-wrapper video{max-width:400px;height:auto}.video-wrapper:before{width:100%;height:100%;border:4px solid #000;top:-11px;left:-11px;z-index:2}.video-wrapper:after,.video-wrapper:before{content:\\\"\\\";display:block;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute}.video-wrapper:after{width:80px;height:200px;background:url(\\\"/assets/images/sm-dot-pattern-red.svg\\\");background-size:cover;bottom:0;left:11px;z-index:1}.video-wrapper img{margin-bottom:-4px;-webkit-box-shadow:10px 10px #fff;box-shadow:10px 10px #fff}.sound-control{width:20px;height:20px;background:url(\\\"/assets/images/mute.svg\\\");background-repeat:no-repeat;bottom:20px;right:25px;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute;z-index:1;background-size:100%}.sound-control.off{background-image:url(\\\"/assets/images/sound.svg\\\")}.contact-wrap{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-align:center;align-items:center;max-width:700px;margin:0 auto;padding:3em 0}.contact-wrap .sep{font-weight:700;font-style:italic;font-size:1.2rem}.woho-wrap{background-color:#fff;margin:16px;max-width:600px;padding:1.5em;border-radius:1em;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-box-shadow:8px 8px var(--secondary-color);box-shadow:8px 8px var(--secondary-color)}.woho-wrap,.woho-wrap:before{position:absolute;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}.woho-wrap:before{content:\\\"\\\";display:block;top:-8px;left:-8px;border:2px solid #000;height:100%;border-radius:1em}@media (max-width:32em){body{background-size:700%}.page-title{padding:1.5em 0}.video-wrapper{float:none;margin:1em 0 2em;display:block;position:relative}.video-wrapper video{width:100%;height:auto}h1{font-size:calc(1rem + 2vh)}h2,h3{font-size:calc(.5rem + 2vh)}p{font-size:1.2rem}.contact-wrap{-ms-flex-direction:column;flex-direction:column}.contact-wrap .sep{display:block;padding:1em 0}a:before{height:5px}.woho-wrap{width:90%;top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
