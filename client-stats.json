@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "2a2bf6320df81b7554ff",
-  "time": 9167,
-  "publicPath": "https://jobb.johniehjelm.me/",
+  "hash": "5307356c0dc10b5841cc",
+  "time": 8799,
+  "publicPath": "https://jobb.johnie.se/",
   "assetsByChunkName": {
     "src/containers/Woho": [
       "templates/src/containers/Woho.70f049cf.js",
@@ -19,14 +19,14 @@
       "templates/src/containers/404.29f14cf9.js.map"
     ],
     "main": [
-      "main.c8b3a07c.js",
-      "styles.2a2bf632.css",
-      "main.c8b3a07c.js.map",
-      "styles.2a2bf632.css.map"
+      "main.0cd18970.js",
+      "styles.5307356c.css",
+      "main.0cd18970.js.map",
+      "styles.5307356c.css.map"
     ],
     "bootstrap": [
-      "bootstrap.2fad8a9f.js",
-      "bootstrap.2fad8a9f.js.map"
+      "bootstrap.1552243a.js",
+      "bootstrap.1552243a.js.map"
     ]
   },
   "assets": [
@@ -64,8 +64,8 @@
       "emitted": true
     },
     {
-      "name": "main.c8b3a07c.js",
-      "size": 273803,
+      "name": "main.0cd18970.js",
+      "size": 273778,
       "chunks": [
         3
       ],
@@ -76,8 +76,8 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.2fad8a9f.js",
-      "size": 1569,
+      "name": "bootstrap.1552243a.js",
+      "size": 1564,
       "chunks": [
         4
       ],
@@ -87,7 +87,7 @@
       "emitted": true
     },
     {
-      "name": "styles.2a2bf632.css",
+      "name": "styles.5307356c.css",
       "size": 5896,
       "chunks": [
         3
@@ -131,8 +131,8 @@
       "emitted": true
     },
     {
-      "name": "main.c8b3a07c.js.map",
-      "size": 1491686,
+      "name": "main.0cd18970.js.map",
+      "size": 1491661,
       "chunks": [
         3
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.2a2bf632.css.map",
+      "name": "styles.5307356c.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,8 +153,8 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.2fad8a9f.js.map",
-      "size": 14488,
+      "name": "bootstrap.1552243a.js.map",
+      "size": 14478,
       "chunks": [
         4
       ],
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.2fad8a9f.js",
-        "bootstrap.2fad8a9f.js.map",
-        "main.c8b3a07c.js",
-        "styles.2a2bf632.css",
-        "main.c8b3a07c.js.map",
-        "styles.2a2bf632.css.map"
+        "bootstrap.1552243a.js",
+        "bootstrap.1552243a.js.map",
+        "main.0cd18970.js",
+        "styles.5307356c.css",
+        "main.0cd18970.js.map",
+        "styles.5307356c.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -2097,12 +2097,12 @@
         "main"
       ],
       "files": [
-        "main.c8b3a07c.js",
-        "styles.2a2bf632.css",
-        "main.c8b3a07c.js.map",
-        "styles.2a2bf632.css.map"
+        "main.0cd18970.js",
+        "styles.5307356c.css",
+        "main.0cd18970.js.map",
+        "styles.5307356c.css.map"
       ],
-      "hash": "c8b3a07cb9506d184945",
+      "hash": "0cd189701566429fbce7",
       "parents": [
         4
       ],
@@ -3623,9 +3623,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/react-static/lib/client/components/RouteData.js",
-          "issuerId": 90,
-          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+          "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/travis/build/johnie/jobb.johnie.se/dist/react-static-routes.js",
+          "issuerId": 128,
+          "issuerName": "./dist/react-static-routes.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -9077,10 +9077,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.2fad8a9f.js",
-        "bootstrap.2fad8a9f.js.map"
+        "bootstrap.1552243a.js",
+        "bootstrap.1552243a.js.map"
       ],
-      "hash": "2fad8a9f43e794a2270f",
+      "hash": "1552243a4defd63f9572",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -10604,9 +10604,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/react-static/lib/client/components/RouteData.js",
-      "issuerId": 90,
-      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+      "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/travis/build/johnie/jobb.johnie.se/dist/react-static-routes.js",
+      "issuerId": 128,
+      "issuerName": "./dist/react-static-routes.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -17675,7 +17675,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "https://jobb.johniehjelm.me/",
+      "publicPath": "https://jobb.johnie.se/",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -17701,7 +17701,7 @@
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "ee734116b65d74e4001e",
+          "hash": "61c58073215fd6e2eaa0",
           "parents": [],
           "modules": [
             {
