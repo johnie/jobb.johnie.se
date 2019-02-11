@@ -574,7 +574,7 @@ exports.default = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+    value: true
 });
 
 var _react = __webpack_require__(0);
@@ -600,19 +600,19 @@ exports.default = _App2.default;
 // Your top level component
 
 if (typeof document !== 'undefined') {
-	window.addEventListener('load', function () {
-		var ga = window.ga;
-		ga('create', 'UA-17365662-21', 'auto');
+    window.addEventListener('load', function () {
+        var ga = window.ga;
+        ga('create', 'UA-17365662-21', 'auto');
 
-		ga('send', 'pageview');
-	});
-	var renderMethod =  false ? _reactDom2.default.render : _reactDom2.default.hydrate || _reactDom2.default.render;
-	var render = function render(Comp) {
-		renderMethod(_react2.default.createElement(Comp, null), document.getElementById('root'));
-	};
+        ga('send', 'pageview');
+    });
+    var renderMethod =  false ? _reactDom2.default.render : _reactDom2.default.hydrate || _reactDom2.default.render;
+    var render = function render(Comp) {
+        renderMethod(_react2.default.createElement(Comp, null), document.getElementById('root'));
+    };
 
-	// Render!
-	render(_App2.default);
+    // Render!
+    render(_App2.default);
 }
 
 /***/ }),
@@ -1689,4 +1689,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.05864e4b.js.map
+//# sourceMappingURL=static.369db377.js.map

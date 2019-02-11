@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "5307356c0dc10b5841cc",
-  "time": 8799,
+  "hash": "e502296cb003e5806ae3",
+  "time": 9501,
   "publicPath": "https://jobb.johnie.se/",
   "assetsByChunkName": {
     "src/containers/Woho": [
@@ -19,10 +19,10 @@
       "templates/src/containers/404.29f14cf9.js.map"
     ],
     "main": [
-      "main.0cd18970.js",
-      "styles.5307356c.css",
-      "main.0cd18970.js.map",
-      "styles.5307356c.css.map"
+      "main.8cec6fb9.js",
+      "styles.e502296c.css",
+      "main.8cec6fb9.js.map",
+      "styles.e502296c.css.map"
     ],
     "bootstrap": [
       "bootstrap.1552243a.js",
@@ -64,7 +64,7 @@
       "emitted": true
     },
     {
-      "name": "main.0cd18970.js",
+      "name": "main.8cec6fb9.js",
       "size": 273778,
       "chunks": [
         3
@@ -87,7 +87,7 @@
       "emitted": true
     },
     {
-      "name": "styles.5307356c.css",
+      "name": "styles.e502296c.css",
       "size": 5896,
       "chunks": [
         3
@@ -131,8 +131,8 @@
       "emitted": true
     },
     {
-      "name": "main.0cd18970.js.map",
-      "size": 1491661,
+      "name": "main.8cec6fb9.js.map",
+      "size": 1491731,
       "chunks": [
         3
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.5307356c.css.map",
+      "name": "styles.e502296c.css.map",
       "size": 96,
       "chunks": [
         3
@@ -174,10 +174,10 @@
       "assets": [
         "bootstrap.1552243a.js",
         "bootstrap.1552243a.js.map",
-        "main.0cd18970.js",
-        "styles.5307356c.css",
-        "main.0cd18970.js.map",
-        "styles.5307356c.css.map"
+        "main.8cec6fb9.js",
+        "styles.e502296c.css",
+        "main.8cec6fb9.js.map",
+        "styles.e502296c.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -2092,17 +2092,17 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 520016,
+      "size": 520064,
       "names": [
         "main"
       ],
       "files": [
-        "main.0cd18970.js",
-        "styles.5307356c.css",
-        "main.0cd18970.js.map",
-        "styles.5307356c.css.map"
+        "main.8cec6fb9.js",
+        "styles.e502296c.css",
+        "main.8cec6fb9.js.map",
+        "styles.e502296c.css.map"
       ],
-      "hash": "0cd189701566429fbce7",
+      "hash": "8cec6fb9813c6989b960",
       "parents": [
         4
       ],
@@ -3623,9 +3623,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/travis/build/johnie/jobb.johnie.se/dist/react-static-routes.js",
-          "issuerId": 128,
-          "issuerName": "./dist/react-static-routes.js",
+          "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/react-static/lib/client/components/RouteData.js",
+          "issuerId": 90,
+          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5907,7 +5907,7 @@
           "name": "./src/index.js",
           "index": 0,
           "index2": 169,
-          "size": 1042,
+          "size": 1090,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5927,7 +5927,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = require('react-dom');\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _App = require('./App');\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// Export your top level component as JSX (for static rendering)\nexports.default = _App2.default;\n\n// Render your app\n\n\n// Your top level component\n\nif (typeof document !== 'undefined') {\n\twindow.addEventListener('load', function () {\n\t\tvar ga = window.ga;\n\t\tga('create', 'UA-17365662-21', 'auto');\n\n\t\tga('send', 'pageview');\n\t});\n\tvar renderMethod = module.hot ? _reactDom2.default.render : _reactDom2.default.hydrate || _reactDom2.default.render;\n\tvar render = function render(Comp) {\n\t\trenderMethod(_react2.default.createElement(Comp, null), document.getElementById('root'));\n\t};\n\n\t// Render!\n\trender(_App2.default);\n}"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = require('react-dom');\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _App = require('./App');\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// Export your top level component as JSX (for static rendering)\nexports.default = _App2.default;\n\n// Render your app\n\n\n// Your top level component\n\nif (typeof document !== 'undefined') {\n    window.addEventListener('load', function () {\n        var ga = window.ga;\n        ga('create', 'UA-17365662-21', 'auto');\n\n        ga('send', 'pageview');\n    });\n    var renderMethod = module.hot ? _reactDom2.default.render : _reactDom2.default.hydrate || _reactDom2.default.render;\n    var render = function render(Comp) {\n        renderMethod(_react2.default.createElement(Comp, null), document.getElementById('root'));\n    };\n\n    // Render!\n    render(_App2.default);\n}"
         },
         {
           "id": 55,
@@ -10604,9 +10604,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/travis/build/johnie/jobb.johnie.se/dist/react-static-routes.js",
-      "issuerId": 128,
-      "issuerName": "./dist/react-static-routes.js",
+      "issuer": "/home/travis/build/johnie/jobb.johnie.se/node_modules/react-static/lib/client/components/RouteData.js",
+      "issuerId": 90,
+      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13029,7 +13029,7 @@
       "name": "./src/index.js",
       "index": 0,
       "index2": 169,
-      "size": 1042,
+      "size": 1090,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13049,7 +13049,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 0,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = require('react-dom');\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _App = require('./App');\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// Export your top level component as JSX (for static rendering)\nexports.default = _App2.default;\n\n// Render your app\n\n\n// Your top level component\n\nif (typeof document !== 'undefined') {\n\twindow.addEventListener('load', function () {\n\t\tvar ga = window.ga;\n\t\tga('create', 'UA-17365662-21', 'auto');\n\n\t\tga('send', 'pageview');\n\t});\n\tvar renderMethod = module.hot ? _reactDom2.default.render : _reactDom2.default.hydrate || _reactDom2.default.render;\n\tvar render = function render(Comp) {\n\t\trenderMethod(_react2.default.createElement(Comp, null), document.getElementById('root'));\n\t};\n\n\t// Render!\n\trender(_App2.default);\n}"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = require('react-dom');\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _App = require('./App');\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// Export your top level component as JSX (for static rendering)\nexports.default = _App2.default;\n\n// Render your app\n\n\n// Your top level component\n\nif (typeof document !== 'undefined') {\n    window.addEventListener('load', function () {\n        var ga = window.ga;\n        ga('create', 'UA-17365662-21', 'auto');\n\n        ga('send', 'pageview');\n    });\n    var renderMethod = module.hot ? _reactDom2.default.render : _reactDom2.default.hydrate || _reactDom2.default.render;\n    var render = function render(Comp) {\n        renderMethod(_react2.default.createElement(Comp, null), document.getElementById('root'));\n    };\n\n    // Render!\n    render(_App2.default);\n}"
     },
     {
       "id": 55,
