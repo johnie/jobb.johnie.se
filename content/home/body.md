@@ -6,6 +6,6 @@ Du som söker skall, oavsett kön eller sexuell läggning, vara mellan 18-35år,
 
 ## Varför ska du välja just detta grymma jobb?
 
-Jag kan erbjuda dig är en arbetsplats med mycket högt till tak, sköna discussioner och väldigt ostressig miljö. Men också där din passioner kan växa - t.ex en av mina assistenter är [sveriges grymmast hiphopmusiker](https://open.spotify.com/artist/3Q32bNJ9bjTHSh66syuXhm?si=jeTAQRNcRcCDEB2UiZTRkA).
+Jag kan erbjuda dig är en arbetsplats med mycket högt till tak, sköna discussioner och väldigt ostressig miljö. Men också där din passioner kan växa - t.ex en av mina assistenter är [sveriges grymmast hiphopartist](https://open.spotify.com/artist/3Q32bNJ9bjTHSh66syuXhm?si=jeTAQRNcRcCDEB2UiZTRkA).
 
 Individuell lönesättning enl KFS hos [God Assistans](https://godassistans.se).
