@@ -249,7 +249,10 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; /* eslint-disable jsx-a11y/media-has-caption */
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+
 
 var _react = __webpack_require__(0);
 
@@ -376,7 +379,11 @@ var Home = function (_React$Component) {
                     ),
                     _react2.default.createElement(
                         'div',
-                        { className: 'video-wrapper', onClick: this.toggleMute },
+                        {
+                            className: 'video-wrapper',
+                            onClick: this.toggleMute,
+                            role: 'img'
+                        },
                         _react2.default.createElement(
                             'video',
                             { autoPlay: true, loop: true, muted: this.state.muted },
@@ -1521,10 +1528,10 @@ module.exports = require("htmr");
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+    value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n\tbackground-color: transparent;\n\tcolor: ', ';\n\tpadding: 0 2em;\n\tline-height: 2.5;\n\tborder: 2px solid #000;\n\tcolor: #000;\n\tfont-weight: 900;\n\tborder-radius: 100px;\n\tposition: relative;\n\tfont-size: 1.2rem;\n\ttext-shadow: -4px -2px ', ';\n\n\t&::before {\n\t\tdisplay: none;\n\t}\n\n\t&:hover,\n\t&:focus {\n\t\ttop: -4px;\n\t}\n\n\t.btn-bg {\n\t\tposition: absolute;\n\t\theight: 100%;\n\t\twidth: 100%;\n\t\ttop: 0.25em;\n\t\tleft: 0.25em;\n\t\tborder-radius: 100px;\n\t\tbackground-color: ', ';\n\t\tz-index: -1;\n\n\t\t&::before {\n\t\t\tposition: absolute;\n\t\t\tcontent: \'\';\n\t\t\tbackground-image: url(/assets/images/sm-dot-pattern.svg);\n\t\t\theight: 100%;\n\t\t\twidth: 100px;\n\t\t\ttop: 0;\n\t\t\tleft: 0;\n\t\t\t-webkit-background-size: 50% 50%;\n\t\t\tbackground-size: 50%;\n\t\t\tbackground-repeat: repeat-y;\n\t\t\tbackground-position: 0;\n\t\t\t-webkit-filter: invert(1);\n\t\t\tfilter: invert(1);\n\t\t}\n\t}\n\n\t.btn-text {\n\t\tcolor: ', ';\n\t}\n'], ['\n\tbackground-color: transparent;\n\tcolor: ', ';\n\tpadding: 0 2em;\n\tline-height: 2.5;\n\tborder: 2px solid #000;\n\tcolor: #000;\n\tfont-weight: 900;\n\tborder-radius: 100px;\n\tposition: relative;\n\tfont-size: 1.2rem;\n\ttext-shadow: -4px -2px ', ';\n\n\t&::before {\n\t\tdisplay: none;\n\t}\n\n\t&:hover,\n\t&:focus {\n\t\ttop: -4px;\n\t}\n\n\t.btn-bg {\n\t\tposition: absolute;\n\t\theight: 100%;\n\t\twidth: 100%;\n\t\ttop: 0.25em;\n\t\tleft: 0.25em;\n\t\tborder-radius: 100px;\n\t\tbackground-color: ', ';\n\t\tz-index: -1;\n\n\t\t&::before {\n\t\t\tposition: absolute;\n\t\t\tcontent: \'\';\n\t\t\tbackground-image: url(/assets/images/sm-dot-pattern.svg);\n\t\t\theight: 100%;\n\t\t\twidth: 100px;\n\t\t\ttop: 0;\n\t\t\tleft: 0;\n\t\t\t-webkit-background-size: 50% 50%;\n\t\t\tbackground-size: 50%;\n\t\t\tbackground-repeat: repeat-y;\n\t\t\tbackground-position: 0;\n\t\t\t-webkit-filter: invert(1);\n\t\t\tfilter: invert(1);\n\t\t}\n\t}\n\n\t.btn-text {\n\t\tcolor: ', ';\n\t}\n']);
+var _templateObject = _taggedTemplateLiteral(['\n    background-color: transparent;\n    color: ', ';\n    padding: 0 2em;\n    line-height: 2.5;\n    border: 4px solid #000;\n    color: #000;\n    font-weight: 900;\n    border-radius: 100px;\n    position: relative;\n    font-size: 1.8rem;\n    text-shadow: -4px -2px ', ';\n\n    &::before {\n        display: none;\n    }\n\n    &:hover,\n    &:focus {\n        top: -4px;\n    }\n\n    .btn-bg {\n        position: absolute;\n        height: 100%;\n        width: 100%;\n        top: 0;\n        left: 0;\n        border-radius: 100px;\n        background-color: ', ';\n        z-index: -1;\n    }\n\n    .btn-text {\n        color: ', ';\n    }\n'], ['\n    background-color: transparent;\n    color: ', ';\n    padding: 0 2em;\n    line-height: 2.5;\n    border: 4px solid #000;\n    color: #000;\n    font-weight: 900;\n    border-radius: 100px;\n    position: relative;\n    font-size: 1.8rem;\n    text-shadow: -4px -2px ', ';\n\n    &::before {\n        display: none;\n    }\n\n    &:hover,\n    &:focus {\n        top: -4px;\n    }\n\n    .btn-bg {\n        position: absolute;\n        height: 100%;\n        width: 100%;\n        top: 0;\n        left: 0;\n        border-radius: 100px;\n        background-color: ', ';\n        z-index: -1;\n    }\n\n    .btn-text {\n        color: ', ';\n    }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -1539,35 +1546,35 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var ButtonWrap = _styledComponents2.default.a(_templateObject, function (props) {
-	return props.color;
+    return props.color;
 }, function (props) {
-	return props.bg;
+    return props.bg;
 }, function (props) {
-	return props.bg;
+    return props.bg;
 }, function (props) {
-	return props.color;
+    return props.color;
 });
 
 var Button = function Button(_ref) {
-	var bg = _ref.bg,
-	    color = _ref.color,
-	    href = _ref.href,
-	    text = _ref.text;
-	return _react2.default.createElement(
-		ButtonWrap,
-		{ bg: bg, color: color, href: href },
-		_react2.default.createElement('span', { className: 'btn-bg' }),
-		_react2.default.createElement(
-			'span',
-			{ className: 'btn-text' },
-			text
-		)
-	);
+    var bg = _ref.bg,
+        color = _ref.color,
+        href = _ref.href,
+        text = _ref.text;
+    return _react2.default.createElement(
+        ButtonWrap,
+        { bg: bg, color: color, href: href },
+        _react2.default.createElement('span', { className: 'btn-bg' }),
+        _react2.default.createElement(
+            'span',
+            { className: 'btn-text' },
+            text
+        )
+    );
 };
 
 Button.defaultProps = {
-	bg: 'var(--secondary-color)',
-	color: 'black'
+    bg: 'transparent',
+    color: 'black'
 };
 
 exports.default = Button;
@@ -1599,7 +1606,7 @@ exports = module.exports = __webpack_require__(28)(false);
 
 
 // module
-exports.push([module.i, ":root{--main-color:#fedf22;--secondary-color:#fa6b5d;--third-color:#4854f1}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Book.80e9c364.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Book.0127ef90.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Book.bd0af0b6.ttf) format(\"truetype\");font-weight:400;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BookItalic.b62b5b94.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BookItalic.216dec70.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BookItalic.58743b16.ttf) format(\"truetype\");font-weight:400;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Medium.eedf0753.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Medium.7b2b40bc.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Medium.f089a9ed.ttf) format(\"truetype\");font-weight:500;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-MediumItalic.9465a375.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-MediumItalic.042e5cd0.woff) format(\"woff\"),url(/assets/fonts/CircularStd-MediumItalic.8dba7a2e.ttf) format(\"truetype\");font-weight:500;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Bold.c3d5e041.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Bold.3846ec55.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Bold.4103a6b3.ttf) format(\"truetype\");font-weight:700;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BoldItalic.715911a7.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BoldItalic.409f5a04.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BoldItalic.e099e247.ttf) format(\"truetype\");font-weight:700;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Black.8dad6d94.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Black.4cbaf5d7.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Black.797785a9.ttf) format(\"truetype\");font-weight:900;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BlackItalic.e78f3095.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BlackItalic.ad15ff54.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BlackItalic.70499120.ttf) format(\"truetype\");font-weight:900;font-style:italic}body{margin:0;padding:0;font-family:Circular Std,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;font-size:16px;-webkit-font-feature-settings:\"liga\",\"kern\";font-feature-settings:\"liga\",\"kern\";text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;background:var(--main-color) url(\"/assets/images/confetti.svg\");background-size:300%}a,body{color:#000}a{text-decoration:none;display:inline-block;font-weight:600;position:relative}a:before{content:\"\";display:block;position:absolute;height:6px;width:100%;bottom:8px;left:0;background-color:var(--secondary-color);z-index:-1}.content,img{max-width:100%}.content{margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:16px;padding-left:16px;padding-bottom:3em;width:988px}h1{font-size:calc(2.5rem + 2vh);letter-spacing:.1rem}h1,h2{font-weight:900}h2{margin:.33em 0}h2,h3{font-size:calc(1rem + 2vh)}h3{font-weight:500;margin-top:.5em;margin-bottom:.5em}h4{font-size:1.2em;margin:1em auto 0}h4,h5{font-weight:700}h5{font-size:1em;margin:1em auto .5em}p{line-height:1.68;font-size:calc(1rem + 1vh)}.page-title{padding:3em 0}.page-title h1{margin:0}.insta-image{width:16.6666666%}.insta-image img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.video-wrapper{float:right;margin:0 0 3em 2em;position:relative}.video-wrapper video{max-width:400px;height:auto}.video-wrapper:before{width:100%;height:100%;border:4px solid #000;top:-11px;left:-11px;z-index:2}.video-wrapper:after,.video-wrapper:before{content:\"\";display:block;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute}.video-wrapper:after{width:80px;height:200px;background:url(\"/assets/images/sm-dot-pattern-red.svg\");background-size:cover;bottom:0;left:11px;z-index:1}.video-wrapper img{margin-bottom:-4px;-webkit-box-shadow:10px 10px #fff;box-shadow:10px 10px #fff}.sound-control{width:20px;height:20px;background:url(\"/assets/images/mute.svg\");background-repeat:no-repeat;bottom:20px;right:25px;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute;z-index:1;background-size:100%}.sound-control.off{background-image:url(\"/assets/images/sound.svg\")}.contact-wrap{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-align:center;align-items:center;max-width:700px;margin:0 auto;padding:3em 0}.contact-wrap .sep{font-weight:700;font-style:italic;font-size:1.2rem}.woho-wrap{background-color:#fff;margin:16px;max-width:600px;padding:1.5em;border-radius:1em;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-box-shadow:8px 8px var(--secondary-color);box-shadow:8px 8px var(--secondary-color)}.woho-wrap,.woho-wrap:before{position:absolute;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}.woho-wrap:before{content:\"\";display:block;top:-8px;left:-8px;border:2px solid #000;height:100%;border-radius:1em}@media (max-width:32em){body{background-size:700%}.page-title{padding:1.5em 0}.video-wrapper{float:none;margin:1em 0 2em;display:block;position:relative}.video-wrapper video{width:100%;height:auto}h1{font-size:calc(1rem + 2vh)}h2,h3{font-size:calc(.5rem + 2vh)}p{font-size:1.2rem}.contact-wrap{-ms-flex-direction:column;flex-direction:column}.contact-wrap .sep{display:block;padding:1em 0}a:before{height:5px}.woho-wrap{width:90%;top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}}", ""]);
+exports.push([module.i, ":root{--main-color:#fff3f6;--secondary-color:#ff3465;--third-color:#4854f1}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Book.80e9c364.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Book.0127ef90.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Book.bd0af0b6.ttf) format(\"truetype\");font-weight:400;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BookItalic.b62b5b94.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BookItalic.216dec70.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BookItalic.58743b16.ttf) format(\"truetype\");font-weight:400;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Medium.eedf0753.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Medium.7b2b40bc.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Medium.f089a9ed.ttf) format(\"truetype\");font-weight:500;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-MediumItalic.9465a375.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-MediumItalic.042e5cd0.woff) format(\"woff\"),url(/assets/fonts/CircularStd-MediumItalic.8dba7a2e.ttf) format(\"truetype\");font-weight:500;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Bold.c3d5e041.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Bold.3846ec55.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Bold.4103a6b3.ttf) format(\"truetype\");font-weight:700;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BoldItalic.715911a7.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BoldItalic.409f5a04.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BoldItalic.e099e247.ttf) format(\"truetype\");font-weight:700;font-style:italic}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-Black.8dad6d94.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-Black.4cbaf5d7.woff) format(\"woff\"),url(/assets/fonts/CircularStd-Black.797785a9.ttf) format(\"truetype\");font-weight:900;font-style:normal}@font-face{font-family:Circular Std;src:url(/assets/fonts/CircularStd-BlackItalic.e78f3095.woff2) format(\"woff2\"),url(/assets/fonts/CircularStd-BlackItalic.ad15ff54.woff) format(\"woff\"),url(/assets/fonts/CircularStd-BlackItalic.70499120.ttf) format(\"truetype\");font-weight:900;font-style:italic}body{margin:0;padding:0;font-family:Circular Std,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;font-size:16px;-webkit-font-feature-settings:\"liga\",\"kern\";font-feature-settings:\"liga\",\"kern\";text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;background-color:var(--main-color)}a,body{color:#000}a{text-decoration:none;display:inline-block;font-weight:600;position:relative;-webkit-transition:color .25s ease;-o-transition:color .25s ease;transition:color .25s ease}a:before{content:\"\";display:block;position:absolute;height:4px;width:104%;bottom:4px;left:-2%;background-color:var(--secondary-color);z-index:-1;-webkit-transition:height .1s cubic-bezier(.17,.67,.83,.67);-o-transition:height .1s cubic-bezier(.17,.67,.83,.67);transition:height .1s cubic-bezier(.17,.67,.83,.67)}a:focus,a:hover{color:#fff}a:focus:before,a:hover:before{height:30px}.content,img{max-width:100%}.content{margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:16px;padding-left:16px;padding-bottom:3em;width:988px}h1{font-size:calc(2.5rem + 2vh);letter-spacing:.1rem;color:var(--secondary-color)}h1,h2{font-weight:900}h2{margin:.33em 0}h2,h3{font-size:calc(1rem + 2vh)}h3{font-weight:500;margin-top:.5em;margin-bottom:.5em}h4{font-size:1.2em;margin:1em auto 0}h4,h5{font-weight:700}h5{font-size:1em;margin:1em auto .5em}p{line-height:1.68;font-size:calc(1rem + 1vh)}.page-title{padding:3em 0}.page-title h1{margin:0}.insta-image{width:16.6666666%}.insta-image img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.video-wrapper{float:right;margin:0 0 3em 2em;position:relative}.video-wrapper video{max-width:400px;height:auto;border-radius:50%}.video-wrapper img{margin-bottom:-4px;-webkit-box-shadow:10px 10px #fff;box-shadow:10px 10px #fff}.sound-control{width:24px;height:24px;background:url(\"/assets/images/mute.svg\");background-repeat:no-repeat;bottom:20px;left:50%;-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute;z-index:1;background-size:100%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.sound-control.off{background-image:url(\"/assets/images/sound.svg\")}.contact-wrap{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-align:center;align-items:center;max-width:700px;margin:0 auto;padding:3em 0}.contact-wrap .sep{font-weight:700;font-style:italic;font-size:1.2rem}.woho-wrap{background-color:#fff;margin:16px;max-width:600px;padding:1.5em;border-radius:1em;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-box-shadow:8px 8px var(--secondary-color);box-shadow:8px 8px var(--secondary-color)}.woho-wrap,.woho-wrap:before{position:absolute;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}.woho-wrap:before{content:\"\";display:block;top:-8px;left:-8px;border:2px solid #000;height:100%;border-radius:1em}@media (max-width:32em){a:focus:before,a:hover:before{height:25px}.page-title{padding:1.5em 0}.video-wrapper{float:none;margin:1em 0 2em;display:block;position:relative}.video-wrapper video{width:100%;height:auto}h1{font-size:calc(1rem + 2vh)}h2,h3{font-size:calc(.5rem + 2vh)}p{font-size:1.2rem}.contact-wrap{-ms-flex-direction:column;flex-direction:column}.contact-wrap .sep{display:block;padding:1em 0}a:before{height:5px}.woho-wrap{width:90%;top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}}", ""]);
 
 // exports
 
@@ -1689,4 +1696,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.369db377.js.map
+//# sourceMappingURL=static.aa283bc3.js.map
