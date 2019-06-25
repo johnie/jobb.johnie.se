@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/media-has-caption */
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react';
 import { withRouteData } from 'react-static';
 import differenceInYears from 'date-fns/difference_in_years';
@@ -66,7 +69,11 @@ class Home extends React.Component {
             return (
                 <React.Fragment>
                     <header className="page-title">{convert(title)}</header>
-                    <div className="video-wrapper" onClick={this.toggleMute}>
+                    <div
+                        className="video-wrapper"
+                        onClick={this.toggleMute}
+                        role="img"
+                    >
                         <video autoPlay loop muted={this.state.muted}>
                             <source
                                 src="https://res.cloudinary.com/johnie/video/upload/v1549824948/johnie_xp7dhb.webm"

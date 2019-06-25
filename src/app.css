@@ -1,6 +1,6 @@
 :root {
-    --main-color: #fedf22;
-    --secondary-color: #fa6b5d;
+    --main-color: #fff3f6;
+    --secondary-color: #ff3465;
     --third-color: #4854f1;
 }
 
@@ -93,8 +93,7 @@ body {
     font-feature-settings: 'liga', 'kern';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    background: var(--main-color) url('/assets/images/confetti.svg');
-    background-size: 300%;
+    background-color: var(--main-color);
     color: black;
 }
 
@@ -104,18 +103,30 @@ a {
     font-weight: 600;
     color: black;
     position: relative;
+    transition: color 0.25s ease;
 }
 
 a::before {
     content: '';
     display: block;
     position: absolute;
-    height: 6px;
-    width: 100%;
-    bottom: 8px;
-    left: 0;
+    height: 4px;
+    width: 104%;
+    bottom: 4px;
+    left: -2%;
     background-color: var(--secondary-color);
     z-index: -1;
+    transition: height 0.1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+a:hover,
+a:focus {
+    color: #fff;
+}
+
+a:hover::before,
+a:focus::before {
+    height: 30px;
 }
 
 img {
@@ -136,6 +147,7 @@ h1 {
     font-weight: 900;
     font-size: calc(2.5rem + 2vh);
     letter-spacing: 0.1rem;
+    color: var(--secondary-color);
 }
 
 h2 {
@@ -195,33 +207,7 @@ p {
 .video-wrapper video {
     max-width: 400px;
     height: auto;
-}
-
-.video-wrapper::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: 4px solid black;
-    top: -11px;
-    left: -11px;
-    box-sizing: border-box;
-    position: absolute;
-    z-index: 2;
-}
-
-.video-wrapper::after {
-    content: '';
-    display: block;
-    width: 80px;
-    height: 200px;
-    background: url('/assets/images/sm-dot-pattern-red.svg');
-    background-size: cover;
-    bottom: 0;
-    left: 11px;
-    box-sizing: border-box;
-    position: absolute;
-    z-index: 1;
+    border-radius: 50%;
 }
 
 .video-wrapper img {
@@ -230,16 +216,17 @@ p {
 }
 
 .sound-control {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     background: url('/assets/images/mute.svg');
     background-repeat: no-repeat;
     bottom: 20px;
-    right: 25px;
+    left: 50%;
     box-sizing: border-box;
     position: absolute;
     z-index: 1;
     background-size: 100%;
+    transform: translateX(-50%);
 }
 
 .sound-control.off {
@@ -291,8 +278,9 @@ p {
 }
 
 @media (max-width: 32em) {
-    body {
-        background-size: 700%;
+    a:hover::before,
+    a:focus::before {
+        height: 25px;
     }
 
     .page-title {
