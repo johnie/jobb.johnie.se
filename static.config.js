@@ -43,10 +43,10 @@ export default {
                         <meta charSet="UTF-8" />
                         <meta
                             name="msapplication-TileColor"
-                            content="#fedf22"
+                            content="#ff3465"
                         />
                         <meta name="author" content="Johnie Hjelm" />
-                        <meta name="theme-color" content="#fedf22" />
+                        <meta name="theme-color" content="#ff3465" />
                         <meta property="og:type" content="article" />
                         <meta
                             property="og:title"
