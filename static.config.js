@@ -54,7 +54,7 @@ export default {
                         />
                         <meta
                             property="og:image"
-                            content="https://res.cloudinary.com/crip/image/upload/c_scale,w_400/v1/Company/People/Management/Johnie_Hjelm.jpg"
+                            content = "https://res.cloudinary.com/johnie/image/upload/w_500,ar_1:1,c_fill,g_auto/v1562795831/johnienew.jpg"
                         />
                         <meta
                             property="og:url"
