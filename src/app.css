@@ -1,5 +1,5 @@
 :root {
-    --main-color: #fff3f6;
+    --main-color: #fafafa;
     --secondary-color: #ff3465;
     --third-color: #4854f1;
 }
@@ -93,15 +93,15 @@ body {
     font-feature-settings: 'liga', 'kern';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--main-color);
-    color: black;
+    color: var(--main-color);
+    background-color: black;
 }
 
 a {
     text-decoration: none;
     display: inline-block;
     font-weight: 600;
-    color: black;
+    color: var(--main-color);
     position: relative;
     transition: color 0.25s ease;
 }
@@ -148,6 +148,7 @@ h1 {
     font-size: calc(2.5rem + 2vh);
     letter-spacing: 0.1rem;
     color: var(--secondary-color);
+    line-height: 1.1;
 }
 
 h2 {

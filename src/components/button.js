@@ -6,8 +6,8 @@ const ButtonWrap = styled.a`
     color: ${props => props.color};
     padding: 0 2em;
     line-height: 2.5;
-    border: 4px solid #000;
-    color: #000;
+    border: 4px solid #ff3465;
+    color: #ff3465;
     font-weight: 900;
     border-radius: 100px;
     position: relative;
@@ -48,7 +48,7 @@ const Button = ({ bg, color, href, text }) => (
 
 Button.defaultProps = {
     bg: 'transparent',
-    color: 'black'
+    color: '#ff3465'
 };
 
 export default Button;
